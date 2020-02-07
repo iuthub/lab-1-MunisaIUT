@@ -1,0 +1,34 @@
+== Info:   Trying 100.25.11.135:80...
+== Info: TCP_NODELAY set
+== Info: Connected to httpbin.org (100.25.11.135) port 80 (#0)
+=> Send header, 78 bytes (0x4e)
+0000: GET /get HTTP/1.1
+0013: Host: httpbin.org
+0026: User-Agent: Mozilla/5.0
+003f: Accept: */*
+004c: 
+== Info: Mark bundle as not supporting multiuse
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 07 Feb 2020 17:11:21 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 252
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.9.0
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 252 bytes (0xfc)
+0000: {.  "args": {}, .  "headers": {.    "Accept": "*/*", .    "Host"
+0040: : "httpbin.org", .    "User-Agent": "Mozilla/5.0", .    "X-Amzn-
+0080: Trace-Id": "Root=1-5e3d9a39-cf7e2614abd61c66edfd24a0".  }, .  "o
+00c0: rigin": "84.54.95.41", .  "url": "http://httpbin.org/get".}.
+== Info: Connection #0 to host httpbin.org left intact

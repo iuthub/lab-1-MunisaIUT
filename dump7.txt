@@ -1,0 +1,40 @@
+== Info: Could not resolve host: Mozilla
+== Info: Closing connection 0
+== Info: Failed to convert www.afisha.uz’ to ACE;
+
+== Info: Closing connection -1
+== Info:   Trying 78.47.144.120:80...
+== Info: TCP_NODELAY set
+== Info: Connected to gazeta.uz (78.47.144.120) port 80 (#1)
+=> Send header, 67 bytes (0x43)
+0000: GET / HTTP/1.1
+0010: Host: gazeta.uz
+0021: User-Agent: gent:
+0034: Accept: */*
+0041: 
+== Info: Mark bundle as not supporting multiuse
+<= Recv header, 32 bytes (0x20)
+0000: HTTP/1.1 302 Moved Temporarily
+<= Recv header, 22 bytes (0x16)
+0000: Server: nginx/1.14.2
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 07 Feb 2020 17:09:05 GMT
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 161
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 33 bytes (0x21)
+0000: Location: http://www.gazeta.uz/
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 161 bytes (0xa1)
+0000: <html>
+0008: <head><title>302 Found</title></head>
+002f: <body bgcolor="white">
+0047: <center><h1>302 Found</h1></center>
+006c: <hr><center>nginx/1.14.2</center>
+008f: </body>
+0098: </html>
+== Info: Connection #1 to host gazeta.uz left intact
