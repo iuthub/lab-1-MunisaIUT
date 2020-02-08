@@ -1,0 +1,2631 @@
+== Info:   Trying 104.24.96.167:443...
+== Info: TCP_NODELAY set
+== Info: Connected to www.booleanworld.com (104.24.96.167) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: C:\curl\curl-7.68.0-win64-mingw\bin\curl-ca-bundle.crt
+  CApath: none
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: ......`f.....0j..D.......|5.!..[..+.C. .C%+...l<....o.....(.f..c
+0040: .:".~...>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........www.booleanworld.com........................
+00c0: 3t.........h2.http/1.1.........1.....0..........................
+0100: .......................+............-.....3.&.$... z..w.Z^.|m...
+0140: ...g..../...+G3...+.............................................
+0180: ................................................................
+01c0: ................................................................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....z
+== Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 122 bytes (0x7a)
+0000: ...v.."........l.*.Q......:.BV~...F.., .C%+...l<....o.....(.f..c
+0040: .:".~........3.$... ..}R.N..<^..d|..zu3....U....Nke.+....
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....P
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+<= Recv SSL data, 19 bytes (0x13)
+0000: .................h2
+== Info: TLSv1.3 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 2218 bytes (0x8aa)
+0000: ...........0...0.............z...R....v...0...*.H.=...0o1.0...U.
+0040: ...US1.0...U....CA1.0...U....San Francisco1.0...U....CloudFlare,
+0080:  Inc.1 0...U....CloudFlare Inc ECC CA-20...200130000000Z..201009
+00c0: 120000Z0m1.0...U....US1.0...U....CA1.0...U....San Francisco1.0..
+0100: .U....Cloudflare, Inc.1.0...U....sni.cloudflaressl.com0Y0...*.H.
+0140: =....*.H.=....B.......%..O[8.....k.m9..1.........EfT.b..9.......
+0180: ..#..x..:Wd.L..{....0...0...U.#..0...>t-..Eu.~?...>LC.Q..0...U.
+01c0: .......n......fM.....Ga..0F..U...?0=..booleanworld.com..*.boolea
+0200: nworld.com..sni.cloudflaressl.com0...U...........0...U.%..0...+.
+0240: ........+.......0y..U...r0p06.4.2.0http://crl3.digicert.com/Clou
+0280: dFlareIncECCCA2.crl06.4.2.0http://crl4.digicert.com/CloudFlareIn
+02c0: cECCCA2.crl0L..U. .E0C07..`.H...l..0*0(..+.........https://www.d
+0300: igicert.com/CPS0...g.....0v..+........j0h0$..+.....0...http://oc
+0340: sp.digicert.com0@..+.....0..4http://cacerts.digicert.com/CloudFl
+0380: areIncECCCA-2.crt0...U.......0.0.....+.....y............v.......
+03c0: X......gp.<5.......w.........o.........G0E. ..a^u@....v..>......
+0400: .@.M.e9r...W.!..61'E).g.a...<A%b.....#2.j.>..O..u.^.s..V...6H}.I
+0440: .2z.........u..qEX...o.........F0D. {wU. ......T+....{R..61G.UO+
+0480: ?..K. ..NJ..,k....g....f..O0.."|n....z0...*.H.=....H.0E. c4...I.
+04c0: DUhr...q..k.....r.T.......!....fi..D...=.>...+....=..jA*.cN*....
+0500: .0...0..............9.=..e...4..0...*.H........0Z1.0...U....IE1.
+0540: 0...U....Baltimore1.0...U....CyberTrust1"0 ..U....Baltimore Cybe
+0580: rTrust Root0...151014120000Z..201009120000Z0o1.0...U....US1.0...
+05c0: U....CA1.0...U....San Francisco1.0...U....CloudFlare, Inc.1 0...
+0600: U....CloudFlare Inc ECC CA-20Y0...*.H.=....*.H.=....B...V....1..
+0640: .R...z.....^..Y...N.d.U.`..K.xT.HP....Xu..`7D.MU....3z#....0...0
+0680: ...U.......0.......0...U...........04..+........(0&0$..+.....0..
+06c0: .http://ocsp.digicert.com0:..U...3010/.-.+.)http://crl3.digicert
+0700: .com/Omniroot2025.crl0=..U. .60402..U. .0*0(..+.........https://
+0740: www.digicert.com/CPS0...U......>t-..Eu.~?...>LC.Q..0...U.#..0...
+0780: ..Y0.GX....T6.{:..M.0...*.H.............8_.....s2......`.2...e..
+07c0: .........K.s.*.....$...R.v...y....P..36.*....2..C.W......%....%1
+0800: ..]H;Q..,...`Q.....3V.Gf.l.......GG.4.....OiN.Y.W........X8R....
+0840: ."4.?...$..o..h-R.k.W,B.-H.....HH.(.4.....`...x...mSi(..k v.U.
+0880: qy.g.....W......g.>&..$..o....p......?'...
+== Info: TLSv1.3 (IN), TLS handshake, CERT verify (15):
+<= Recv SSL data, 78 bytes (0x4e)
+0000: ...J...F0D. {..2W.Q....f...lW..D..vCN...'..X. 7BPY..\)pk..)..F..
+0040: (..Q..k..p%{.I
+== Info: TLSv1.3 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 52 bytes (0x34)
+0000: ...0.`.......c....4.......o...+..B3.....h$m....=r@1J
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....E
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 52 bytes (0x34)
+0000: ...0.....q;.).q!.0a&.x=.pS.j&....t..h.........\..".
+== Info: SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+== Info: ALPN, server accepted to use h2
+== Info: Server certificate:
+== Info:  subject: C=US; ST=CA; L=San Francisco; O=Cloudflare, Inc.; CN=sni.cloudflaressl.com
+== Info:  start date: Jan 30 00:00:00 2020 GMT
+== Info:  expire date: Oct  9 12:00:00 2020 GMT
+== Info:  subjectAltName: host "www.booleanworld.com" matched cert's "*.booleanworld.com"
+== Info:  issuer: C=US; ST=CA; L=San Francisco; O=CloudFlare, Inc.; CN=CloudFlare Inc ECC CA-2
+== Info:  SSL certificate verify ok.
+== Info: Using HTTP2, server supports multi-use
+== Info: Connection state changed (HTTP/2 confirmed)
+== Info: Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+=> Send SSL data, 5 bytes (0x5)
+0000: ....)
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....,
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: Using Stream ID: 1 (easy handle 0x1d216cba450)
+=> Send SSL data, 5 bytes (0x5)
+0000: ....=
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send header, 82 bytes (0x52)
+0000: GET / HTTP/2
+000e: Host: www.booleanworld.com
+002a: user-agent: curl/7.68.0
+0043: accept: */*
+0050: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 230 bytes (0xe6)
+0000: ....... ..Y.....1..M.:...S.}Jk........v&.b...el"......R......w..
+0040: ......."W..j...8....$<.8...k!F.5|...I.X4mZ...A*...;>..,...t.D../
+0080: .....7.U...!.n.oj.h.i.gl...!}.....-N:-...../........|.R.t..aq...
+00c0: bO..5,;..T..Q......c.....x3./.....JJ..
+== Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 230 bytes (0xe6)
+0000: ....... a.a.....1..M.:...S.}Jk..@t.....N..w/......G..0..$Q...kU.
+0040: ..#.........Y.)b.....LE..T....Y.....R...A..}..O..\n,..(.&.,....l
+0080: ...+Z...\@_...R..m......1.J>...1;B....fw= ...l....cQ..Cf.......
+00c0: ha....cF...2...>s..G..l..sU9.. ...JJ..
+== Info: old SSL session ID is stale, removing
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....9
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: Connection state changed (MAX_CONCURRENT_STREAMS == 256)!
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv header, 13 bytes (0xd)
+0000: HTTP/2 200 
+<= Recv header, 37 bytes (0x25)
+0000: date: Sat, 08 Feb 2020 09:46:34 GMT
+<= Recv header, 40 bytes (0x28)
+0000: content-type: text/html; charset=UTF-8
+<= Recv header, 169 bytes (0xa9)
+0000: set-cookie: __cfduid=da0f9a64c8b8e4f4d81db085befdb6cfd1581155193
+0040: ; expires=Mon, 09-Mar-20 09:46:33 GMT; path=/; domain=.booleanwo
+0080: rld.com; HttpOnly; SameSite=Lax; Secure
+<= Recv header, 8 bytes (0x8)
+0000: age: 0
+<= Recv header, 63 bytes (0x3f)
+0000: cache-control: max-age=0, must-revalidate, no-cache, no-store
+<= Recv header, 23 bytes (0x17)
+0000: display: pub_site_sol
+<= Recv header, 40 bytes (0x28)
+0000: expires: Fri, 07 Feb 2020 09:46:34 GMT
+<= Recv header, 73 bytes (0x49)
+0000: link: <https://www.booleanworld.com/wp-json/>; rel="https://api.
+0040: w.org/"
+<= Recv header, 16 bytes (0x10)
+0000: pagespeed: off
+<= Recv header, 15 bytes (0xf)
+0000: response: 200
+<= Recv header, 103 bytes (0x67)
+0000: set-cookie: ezoadgid_95829=-1; Path=/; Domain=booleanworld.com; 
+0040: Expires=Sat, 08 Feb 2020 10:16:34 UTC
+<= Recv header, 99 bytes (0x63)
+0000: set-cookie: ezoref_95829=; Path=/; Domain=booleanworld.com; Expi
+0040: res=Sat, 08 Feb 2020 11:46:34 UTC
+<= Recv header, 104 bytes (0x68)
+0000: set-cookie: ezoab_95829=mod7-c; Path=/; Domain=booleanworld.com;
+0040:  Expires=Sat, 08 Feb 2020 11:46:34 UTC
+<= Recv header, 128 bytes (0x80)
+0000: set-cookie: active_template::95829=pub_site.1581155194; Path=/; 
+0040: Domain=booleanworld.com; Expires=Mon, 10 Feb 2020 09:46:34 UTC
+<= Recv header, 100 bytes (0x64)
+0000: set-cookie: ezopvc_95829=1; Path=/; Domain=booleanworld.com; Exp
+0040: ires=Sat, 08 Feb 2020 10:16:34 UTC
+<= Recv header, 97 bytes (0x61)
+0000: set-cookie: ezepvv=2039; Path=/; Domain=booleanworld.com; Expire
+0040: s=Sun, 09 Feb 2020 09:46:34 UTC
+<= Recv header, 124 bytes (0x7c)
+0000: set-cookie: lp_95829=https://www.booleanworld.com/; Path=/; Doma
+0040: in=booleanworld.com; Expires=Sat, 08 Feb 2020 11:46:34 UTC
+<= Recv header, 109 bytes (0x6d)
+0000: set-cookie: ezovid_95829=1322325635; Path=/; Domain=booleanworld
+0040: .com; Expires=Sat, 08 Feb 2020 10:16:34 UTC
+<= Recv header, 115 bytes (0x73)
+0000: set-cookie: ezovuuidtime_95829=1581155194; Path=/; Domain=boolea
+0040: nworld.com; Expires=Mon, 10 Feb 2020 09:46:34 UTC
+<= Recv header, 137 bytes (0x89)
+0000: set-cookie: ezovuuid_95829=f3fd1d7a-c8bc-4bb2-5b6a-d53803a7d8e4;
+0040:  Path=/; Domain=booleanworld.com; Expires=Sat, 08 Feb 2020 10:16
+0080: :34 UTC
+<= Recv header, 99 bytes (0x63)
+0000: set-cookie: ezCMPCCS=true; Path=/; Domain=booleanworld.com; Expi
+0040: res=Mon, 08 Feb 2021 09:46:34 GMT
+<= Recv header, 45 bytes (0x2d)
+0000: vary: Accept-Encoding,User-Agent,X-APP-JSON
+<= Recv header, 32 bytes (0x20)
+0000: via: 1.1 varnish (Varnish/6.0)
+<= Recv header, 104 bytes (0x68)
+0000: x-ezoic-cdn: Hit ds;mm;5095a596f1199f08ba97dd339749c4bf;2-95829-
+0040: 6;bc276fcf-0a93-4c52-73fe-16592f9d9297
+<= Recv header, 29 bytes (0x1d)
+0000: x-frame-options: sameorigin
+<= Recv header, 35 bytes (0x23)
+0000: x-middleton-display: pub_site_sol
+<= Recv header, 27 bytes (0x1b)
+0000: x-middleton-response: 200
+<= Recv header, 20 bytes (0x14)
+0000: x-shard: 100226147
+<= Recv header, 17 bytes (0x11)
+0000: x-sol: pub_site
+<= Recv header, 22 bytes (0x16)
+0000: x-varnish: 404146127
+<= Recv header, 16 bytes (0x10)
+0000: x-vcache: Miss
+<= Recv header, 33 bytes (0x21)
+0000: x-xss-protection: 1; mode=block
+<= Recv header, 26 bytes (0x1a)
+0000: cf-cache-status: DYNAMIC
+<= Recv header, 100 bytes (0x64)
+0000: expect-ct: max-age=604800, report-uri="https://report-uri.cloudf
+0040: lare.com/cdn-cgi/beacon/expect-ct"
+<= Recv header, 73 bytes (0x49)
+0000: strict-transport-security: max-age=15552000; includeSubDomains; 
+0040: preload
+<= Recv header, 33 bytes (0x21)
+0000: x-content-type-options: nosniff
+<= Recv header, 20 bytes (0x14)
+0000: server: cloudflare
+<= Recv header, 30 bytes (0x1e)
+0000: cf-ray: 561cad59cda7f3fb-LHR
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 1135 bytes (0x46f)
+0000: <!DOCTYPE html><html class="no-js" lang="en-US"><head><meta char
+0040: set="UTF-8">.<script type="text/javascript">..var __banger_pmp_d
+0080: eals=[{"SlotName":"/1254144/booleanworld_com-box-1","Deals":[{"D
+00c0: ealId":17,"Floor":160},{"DealId":18,"Floor":25},{"DealId":19,"Fl
+0100: oor":100}]},{"SlotName":"/1254144/booleanworld_com-large-leaderb
+0140: oard-1","Deals":[{"DealId":18,"Floor":25}]},{"SlotName":"/125414
+0180: 4/booleanworld_com-banner-2","Deals":[{"DealId":18,"Floor":25}]}
+01c0: ];.</script>.<script type='text/javascript'>_ebcids=[13823130885
+0200: 6,138231308940,138231308949,138231387842,138231421744,1382314217
+0240: 59,138231421774,138231421783,138231421789,138231421792,138242067
+0280: 587,138242067590,138242067602,138242067605,138242067608,13824206
+02c0: 7614,138242229406,138242229415,138242229421,138242229430];</scri
+0300: pt>.<script data-ezscrex="false" data-cfasync="false" data-pages
+0340: peed-no-defer type='text/javascript'>ezobv = 91;</script><script
+0380:  data-ezscrex="false" data-cfasync="false" data-pagespeed-no-def
+03c0: er type='text/javascript'>.function ez_isclean( data ) {.    if 
+0400: (typeof data === 'undefined') { data = document.URL; }.    var r
+0440: e = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: \s@\"]+)*)|(\".+\"))(@|%2540|%40)((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-
+0040: 9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;.    
+0080: var isClean = !re.test(data);.    return isClean;.}..var ez_queu
+00c0: e = new Array();.function sort_queue(a, b).{.  if( a.priority < 
+0100: b.priority ) return -1;.  else if( a.priority == b.priority ) re
+0140: turn 0;.  else return 1;.}.function execute_ez_queue().{.  ez_qu
+0180: eue.sort( sort_queue );..  for( var i in ez_queue ).  {.        
+01c0: if(typeof ez_queue[i].method != "undefined").        {.         
+0200:    try{.                ez_queue[i].method.call( null );.       
+0240:      }.            catch (err) {..            }.        }.  }.}.
+0280: .window.ez_ad_units = new Array();.window.ezslots = new Array();
+02c0: .window.ezsrqt = {};.function ez_write_tag(d) {.    if(ez_isclea
+0300: n() && d instanceof Array) {.        if(typeof ezstandalone !== 
+0340: 'undefined' && typeof ezstandalone.selectedPlaceholders !== 'und
+0380: efined' && ezstandalone.selectedPlaceholders[d[3]] === true) {. 
+03c0:            return "1+1";.        }.        ez_ad_units[ez_ad_uni
+0400: ts.length] = d;.        var dve = "";.        if(typeof d[5] != 
+0440: 'undefined' && d[5] > 0){dve = '_'+d[5];}.        var ezcmd = "g
+0480: oogletag.cmd.push(function() {var divid = 'div-gpt-ad-"+d[1]+"-"
+04c0: +d[4]+""+dve+"';if(typeof ezlrarn == 'function'){ezlrarn(divid);
+0500: }googletag.display(divid);var to = 0;if("+d[2]+".getTargeting('g
+0540: a')[0] == '0'){to = 500;c
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: onsole.log('"+d[2]+" - no google');}if(window.ezDisableInitialLo
+0040: ad==true){setTimeout(function(){googletag.pubads().refresh(["+d[
+0080: 2]+"])},to);}});";.        return ezcmd;.    }..    return "1+1"
+00c0: ;.}.function in_array(needle, haystack) {.    var length = hayst
+0100: ack.length;.    for(var i = 0; i < length; i++) {.        if(hay
+0140: stack[i] == needle) return true;.    }.    return false;.}.</scr
+0180: ipt><script data-ezscrex="false" data-cfasync="false" data-pages
+01c0: peed-no-defer type='text/javascript'>var ezrpos = new Array();va
+0200: r ez_current_interval;var ez_current_load = 0;</script><script d
+0240: ata-cfasync="false" type="text/javascript" data-pagespeed-no-def
+0280: er src="//go.ezoic.net/porpoiseant/dall350.js?cb=188-0" async></
+02c0: script><script data-ezscrex="false" data-cfasync="false" type="t
+0300: ext/javascript" data-pagespeed-no-defer>.var epbjs=epbjs||{};fun
+0340: ction epbjsRequestAdUnits(e){epbjs.que.push(function(){for(var s
+0380: =0;s<e.length;s++)epbjs.ezAdUnits.push(e[s]);epbjs.addAdUnits(e)
+03c0: ,epbjs.requestBids({bidsBackHandler:function(e){"function"==type
+0400: of window.ezosethbbids?window.ezosethbbids(e):window.ezosethbbid
+0440: sInterval=setInterval(function(e){"function"==typeof ezosethbbid
+0480: s&&ezosethbbids(e)},130,e)}})})}function epbjsRefreshSlot(e){epb
+04c0: js.que.push(function(){epbjs.requestBids({adUnitCodes:[e.getSlot
+0500: ElementId()],bidsBackHandler:function(e){epbjs.fastLoadAuctionEn
+0540: d=!0,window.ezosethbbids(
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: e)}})})}epbjs.bidderTimeout=2500,epbjs.useAdj=true,epbjs.ezAdUni
+0040: ts=epbjs.ezAdUnits||[],epbjs.que=epbjs.que||[],epbjs.ezdss=epbjs
+0080: .ezdss||[],epbjs.ezas=epbjs.ezas||[],epbjs.ezobid=epbjs.ezobid||
+00c0: [],epbjs.SS={"aol":10028,"criteo":10050,"oftmedia":10081,"sovrn"
+0100: :10017},epbjs.bidders=['sovrn','openx','pulsepoint','defymedia',
+0140: 'aol','conversant','districtm','admedia','emx_digital','sonobi',
+0180: 'criteo','ix','cox','audienceNetwork','pubmatic','rubicon','gumg
+01c0: um','oftmedia','lockerdome','triplelift','emx_digital','justprem
+0200: ium','teads','onemobile','yieldlab','unruly'],epbjs.que.push(fun
+0240: ction(){epbjs.aliasBidder('appnexus', 'oftmedia');}),epbjs.que.p
+0280: ush(function(){epbjs.setConfig({priceGranularity:{buckets:[{prec
+02c0: ision:2,min:0,max:5,increment:.01},{precision:2,min:5,max:50,inc
+0300: rement:.1},{precision:2,min:50,max:120,increment:5}]},userSync:{
+0340: filterSettings:{iframe:{bidders:"*",filter:"include"}}},consentM
+0380: anagement:{cmpApi:'iab',timeout:8000,allowAuctionWithoutConsent:
+03c0: true}}),epbjs.bidderSettings={oftmedia: { bidCpmAdjustment: func
+0400: tion(bidCpm) { var adj1 = bidCpm * 0.900000; var adj2 = adj1 * 1
+0440: .200000; return adj2; }},criteo: { bidCpmAdjustment: function(bi
+0480: dCpm) { var adj1 = bidCpm * 1.000000; var adj2 = adj1 * 1.200000
+04c0: ; return adj2; }}, standard:{adserverTargeting:[{key:"epb",val:f
+0500: unction(e){return e.bidderCode}},{key:"epa",val:function(e){retu
+0540: rn e.adId}},{key:"epp",va
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: l:function(e){return e.pbCg}},{key:"epf",val:function(e){return 
+0040: e.mediaType}},{key:"eps",val:function(e){return"ehb"==e.bidder?0
+0080: :void 0!==epbjs.SS[e.bidder.toLowerCase()]?epbjs.SS[e.bidder.toL
+00c0: owerCase()]:(console.error("epbjs: NO MATCH"),0)}}]}},epbjs.onEv
+0100: ent("bidWon",function(e){epbjs.ezas[e.adUnitCode]=e.size,"ehb"==
+0140: e.bidder?epbjs.ezdss[e.adUnitCode]=e.ss:void 0!==epbjs.SS[e.bidd
+0180: er.toLowerCase()]?(epbjs.ezdss[e.adUnitCode]=epbjs.SS[e.bidder.t
+01c0: oLowerCase()],1==epbjs.useAdj&&epbjs.bidders.indexOf(e.bidder)>-
+0200: 1&&(epbjs.ezobid[e.adUnitCode]=e.cpm/1.200000)):console.error("e
+0240: pbjs: NO MATCH")})});epbjsRequestAdUnits([{code: 'div-gpt-ad-boo
+0280: leanworld_com-box-1-0', mediaTypes: {banner: { sizes:[[160,600]]
+02c0:  }, video: {context:'outstream',playerSize:[[160, 600]]}}, bids:
+0300:  [{bidder: 'criteo', params: { zoneId: '1365388' }},{bidder: 'of
+0340: tmedia', params:{ placementId: '11660678' }},{bidder: 'aol',para
+0380: ms: { placement: '4308141', network: '10765.1' }},{bidder: 'sovr
+03c0: n', params: { tagid: '593578'}}] },{code: 'div-gpt-ad-booleanwor
+0400: ld_com-banner-2-0', mediaTypes: {banner: { sizes:[[300,250]] }, 
+0440: video: {context:'outstream',playerSize:[[300, 250]]}}, bids: [{b
+0480: idder: 'criteo', params: { zoneId: '1248509' }},{bidder: 'sovrn'
+04c0: , params: { tagid: '593678'}},{bidder: 'oftmedia', params:{ plac
+0500: ementId: '11660707' }},{bidder: 'aol',params: { placement: '4308
+0540: 143', network: '10765.1' 
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: }}] },{code: 'div-gpt-ad-booleanworld_com-large-leaderboard-1-0'
+0040: , mediaTypes: {banner: { sizes:[[300,250]] }, video: {context:'o
+0080: utstream',playerSize:[[300, 250]]}}, bids: [{bidder: 'criteo', p
+00c0: arams: { zoneId: '1248509' }},{bidder: 'sovrn', params: { tagid:
+0100:  '593700'}},{bidder: 'oftmedia', params:{ placementId: '11660707
+0140: ' }},{bidder: 'aol',params: { placement: '4308143', network: '10
+0180: 765.1' }}] },{code: 'div-gpt-ad-booleanworld_com-box-1-0', media
+01c0: Types: {banner: { sizes:[[160,600]] }, video: {context:'outstrea
+0200: m',playerSize:[[160, 600]]}}, bids: [{bidder: 'sovrn', params: {
+0240:  tagid: '593578'}},{bidder: 'criteo', params: { zoneId: '1365388
+0280: ' }},{bidder: 'oftmedia', params:{ placementId: '11660678' }},{b
+02c0: idder: 'aol',params: { placement: '4308141', network: '10765.1' 
+0300: }}] },{code: 'div-gpt-ad-booleanworld_com-large-leaderboard-1-0'
+0340: , mediaTypes: {banner: { sizes:[[300,250]] }, video: {context:'o
+0380: utstream',playerSize:[[300, 250]]}}, bids: [{bidder: 'criteo', p
+03c0: arams: { zoneId: '1248509' }},{bidder: 'oftmedia', params:{ plac
+0400: ementId: '11660707' }},{bidder: 'aol',params: { placement: '4308
+0440: 143', network: '10765.1' }},{bidder: 'sovrn', params: { tagid: '
+0480: 593700'}}] },{code: 'div-gpt-ad-booleanworld_com-banner-2-0', me
+04c0: diaTypes: {banner: { sizes:[[300,250]] }, video: {context:'outst
+0500: ream',playerSize:[[300, 250]]}}, bids: [{bidder: 'criteo', param
+0540: s: { zoneId: '1248509' }}
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1360 bytes (0x550)
+0000: ,{bidder: 'sovrn', params: { tagid: '593678'}},{bidder: 'oftmedi
+0040: a', params:{ placementId: '11660707' }},{bidder: 'aol',params: {
+0080:  placement: '4308143', network: '10765.1' }}] }]);</script><scri
+00c0: pt type='text/javascript' data-ezscrex="false">var ezorbf = []; 
+0100: </script><script data-ezscrex="false" data-cfasync="false" data-
+0140: pagespeed-no-defer type='text/javascript'>window.isEZABL=false;w
+0180: indow.ezmadspc=300;window.ezoViewCheck = false;</script><script 
+01c0: data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defe
+0200: r type='text/javascript'>window.ezDisableInitialLoad=false;</scr
+0240: ipt><script data-ezscrex="false" data-cfasync="false" data-pages
+0280: peed-no-defer type='text/javascript'>.window.googletag = window.
+02c0: googletag || {};.googletag.cmd = googletag.cmd || [];.(function(
+0300: ) {.var gads = document.createElement('script');.gads.async = tr
+0340: ue;.gads.type = 'text/javascript';.var useSSL = 'https:' == docu
+0380: ment.location.protocol;.gads.src = (useSSL ? 'https:' : 'http:')
+03c0:  +.'//securepubads.g.doubleclick.net/tag/js/gpt.js';.var node = 
+0400: document.getElementsByTagName('script')[0];.node.parentNode.inse
+0440: rtBefore(gads, node);.})();.</script>.<script data-ezscrex="fals
+0480: e" data-cfasync="false" data-pagespeed-no-defer type='text/javas
+04c0: cript'>.googletag.cmd.push(function() {googletag.destroySlots();
+0500: if(typeof window.isEZABL == 'undefined' || window.isEZABL != tru
+0540: e) {ezslot_1 = g
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: oogletag.defineSlot('/1254144/booleanworld_com-banner-2',[300,25
+0040: 0],'div-gpt-ad-booleanworld_com-banner-2-0').addService(googleta
+0080: g.pubads()).setTargeting('iid3','251450').setTargeting('t','134'
+00c0: ).setTargeting('d','95829').setTargeting('t1','134').setTargetin
+0100: g('pvc','0').setTargeting('ap','1118').setTargeting('sap','1118'
+0140: ).setTargeting('a','|3|').setTargeting('as','revenue').setTarget
+0180: ing('plat','1').setTargeting('bra','mod7-c').setTargeting('ic','
+01c0: 1').setTargeting('at','mbf').setTargeting('adr','399').setTarget
+0200: ing('ezosn','1').setTargeting('reft','tf').setTargeting('refs','
+0240: 30').setTargeting('ga','2497208').setTargeting('gala','').setTar
+0280: geting('rid','99998').setTargeting('pt','31').setTargeting('al',
+02c0: '1031').setTargeting('compid','0').setTargeting('tap','booleanwo
+0300: rld_com-banner-2-251450').setTargeting('eb_br','dfa60cee6e1053fc
+0340: 0c9e607c8047bd28').setTargeting('eba','1').setTargeting('ebss','
+0380: 10017').setTargeting('bv','20').setCollapseEmptyDiv(false).setTa
+03c0: rgeting('br1','80').setTargeting('br2','0').setTargeting('ezoic'
+0400: ,'1').setTargeting('nmau','4').setTargeting('stl','38').setTarge
+0440: ting('deal1',[17,19,20,21,22,23,24,25,26,27]);ezslot_1.set('adse
+0480: nse_background_color','FFFFFF').set('adsense_border_color','FFFF
+04c0: FF').set('adsense_channel_ids','8627580620').set('adsense_link_c
+0500: olor','0000FF').set('adsense_text_color','000000').set('adsense_
+0540: url_color','828282');ezrp
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: os[1]="1";ezslot_2 = googletag.defineSlot('/1254144/booleanworld
+0040: _com-box-1',[160,600],'div-gpt-ad-booleanworld_com-box-1-0').add
+0080: Service(googletag.pubads()).setTargeting('iid3','259300').setTar
+00c0: geting('t','134').setTargeting('d','95829').setTargeting('t1','1
+0100: 34').setTargeting('pvc','0').setTargeting('ap','1103').setTarget
+0140: ing('sap','1103').setTargeting('a','|2|').setTargeting('as','rev
+0180: enue').setTargeting('plat','1').setTargeting('bra','mod7-c').set
+01c0: Targeting('ic','1').setTargeting('at','mbf').setTargeting('adr',
+0200: '399').setTargeting('ezosn','2').setTargeting('reft','tf').setTa
+0240: rgeting('refs','120').setTargeting('ga','2497208').setTargeting(
+0280: 'gala','').setTargeting('rid','99998').setTargeting('pt','0').se
+02c0: tTargeting('al','1000').setTargeting('compid','0').setTargeting(
+0300: 'tap','booleanworld_com-box-1-259300').setTargeting('eb_br','579
+0340: 14c3716312cb7e954090f0717ea25').setTargeting('eba','1').setTarge
+0380: ting('ebss','10017').setTargeting('bv','14').setTargeting('acpta
+03c0: d','1').setCollapseEmptyDiv(false).setTargeting('br1','260').set
+0400: Targeting('br2','0').setTargeting('ezoic','1').setTargeting('nma
+0440: u','0').setTargeting('stl','37').setTargeting('deal1',[20,21,22,
+0480: 23,24,25,26]);ezslot_2.set('adsense_background_color','FFFFFF').
+04c0: set('adsense_border_color','FFFFFF').set('adsense_channel_ids','
+0500: 8627580620').set('adsense_link_color','37a5d7').set('adsense_tex
+0540: t_color','000000').set('a
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: dsense_url_color','F0F0F0');ezrpos[2]="2";ezslot_0 = googletag.d
+0040: efineSlot('/1254144/booleanworld_com-large-leaderboard-1',[300,2
+0080: 50],'div-gpt-ad-booleanworld_com-large-leaderboard-1-0').addServ
+00c0: ice(googletag.pubads()).setTargeting('iid3','258450').setTargeti
+0100: ng('t','134').setTargeting('d','95829').setTargeting('t1','134')
+0140: .setTargeting('pvc','0').setTargeting('ap','1116').setTargeting(
+0180: 'sap','1116').setTargeting('a','|2|').setTargeting('as','revenue
+01c0: ').setTargeting('plat','1').setTargeting('bra','mod7-c').setTarg
+0200: eting('ic','1').setTargeting('at','mbf').setTargeting('adr','399
+0240: ').setTargeting('ezosn','0').setTargeting('reft','n').setTargeti
+0280: ng('refs','30').setTargeting('ga','2497208').setTargeting('gala'
+02c0: ,'').setTargeting('rid','99998').setTargeting('pt','0').setTarge
+0300: ting('al','1035').setTargeting('compid','0').setTargeting('tap',
+0340: 'booleanworld_com-large-leaderboard-1-258450').setTargeting('eb_
+0380: br','c352ba581bd3ffd8cea608cf2d55f519').setTargeting('eba','1').
+03c0: setTargeting('ebss','10017').setTargeting('bv','15').setCollapse
+0400: EmptyDiv(false).setTargeting('br1','60').setTargeting('br2','0')
+0440: .setTargeting('ezoic','1').setTargeting('nmau','4').setTargeting
+0480: ('stl','46').setTargeting('deal1',[17,19,20,21,22,23,24,25,26,27
+04c0: ]);ezslot_0.set('adsense_background_color','FFFFFF').set('adsens
+0500: e_border_color','FFFFFF').set('adsense_channel_ids','8627580620'
+0540: ).set('adsense_link_color
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: ','37a5d7').set('adsense_text_color','000000').set('adsense_url_
+0040: color','F0F0F0');ezrpos[0]="0";}else{window.ezHideLocations=[];w
+0080: indow.ezHideLocations.push('div-gpt-ad-booleanworld_com-banner-2
+00c0: -0');ezslot_2 = googletag.defineSlot('/1254144/booleanworld_com-
+0100: box-1',[160,600],'div-gpt-ad-booleanworld_com-box-1-0').addServi
+0140: ce(googletag.pubads()).setTargeting('iid3','259300').setTargetin
+0180: g('t','134').setTargeting('d','95829').setTargeting('t1','134').
+01c0: setTargeting('pvc','0').setTargeting('ap','1103').setTargeting('
+0200: sap','1103').setTargeting('a','|2|').setTargeting('as','revenue'
+0240: ).setTargeting('plat','1').setTargeting('bra','mod7-c').setTarge
+0280: ting('ic','1').setTargeting('at','mbf').setTargeting('adr','399'
+02c0: ).setTargeting('ezosn','2').setTargeting('reft','tf').setTargeti
+0300: ng('refs','120').setTargeting('ga','2497208').setTargeting('gala
+0340: ','').setTargeting('rid','99998').setTargeting('pt','0').setTarg
+0380: eting('al','1000').setTargeting('compid','0').setTargeting('tap'
+03c0: ,'booleanworld_com-box-1-259300').setTargeting('eb_br','57914c37
+0400: 16312cb7e954090f0717ea25').setTargeting('eba','1').setTargeting(
+0440: 'ebss','10017').setTargeting('bv','14').setTargeting('acptad','1
+0480: ').setCollapseEmptyDiv(false).setTargeting('br1','260').setTarge
+04c0: ting('br2','0').setTargeting('ezoic','1').setTargeting('nmau','0
+0500: ').setTargeting('stl','37').setTargeting('deal1',[20,21,22,23,24
+0540: ,25,26]);ezslot_2.set('ad
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: sense_background_color','FFFFFF').set('adsense_border_color','FF
+0040: FFFF').set('adsense_channel_ids','8627580620').set('adsense_link
+0080: _color','37a5d7').set('adsense_text_color','000000').set('adsens
+00c0: e_url_color','F0F0F0');ezrpos[2]="2";window.ezHideLocations.push
+0100: ('div-gpt-ad-booleanworld_com-large-leaderboard-1-0');}googletag
+0140: .pubads().addEventListener('slotRenderEnded', function(event) { 
+0180: __ez.queue.addFunc("ezbanger", "ezbanger", event, false, ['bange
+01c0: r.js'], true, true, false, true); });googletag.pubads().addEvent
+0200: Listener('impressionViewable', function(event) { __ez.queue.addF
+0240: unc("ezvb", "ezvb", event, false, ['banger.js'], true, true, fal
+0280: se, true); });googletag.pubads().addEventListener('slotResponseR
+02c0: eceived', function(event) { __ez.queue.addFunc("ezsr", "ezsr", e
+0300: vent, false, ['banger.js'], true, true, false, true); });googlet
+0340: ag.pubads().addEventListener('slotRequested', function(e) { wind
+0380: ow.ezsrqt[e.slot.getSlotElementId()] = Date.now();});googletag.p
+03c0: ubads().enableLazyLoad({fetchMarginPercent: 400,renderMarginPerc
+0400: ent: 250,mobileScaling: 2.0});googletag.enableServices();});wind
+0440: ow.ezoll = false;window.ezoadxnc = '1254144';window.ezorefgsl = 
+0480: function(slot) {slot.setTargeting('reqt', Date.now());if(typeof 
+04c0: slot.DFPSlot != 'undefined') {googletag.pubads().refresh([slot.D
+0500: FPSlot]);} else {googletag.pubads().refresh([slot]);}};var ezoib
+0540: fh = Array();ezoibfh[0] =
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1360 bytes (0x550)
+0000:  'zero';ezoibfh[1000000] = 'off';ezoibfh[100] = 'a495ce7dbb4cefc
+0040: d3e0a722048894f41';.ezoibfh[80] = 'dfa60cee6e1053fc0c9e607c8047b
+0080: d28';.ezoibfh[70] = '527e52c10635ac8136a4c84094ee49a8';.ezoibfh[
+00c0: 40] = 'ee685f77592ce296910ee91457d66ba3';.ezoibfh[140] = 'af063c
+0100: 244089b52ec5a0423a258f1f8e';.ezoibfh[30] = '54d0fa6d5f6aabe7623c
+0140: b24faa42a441';.ezoibfh[120] = '58ef7bddb438af5e257c4377f32c243a'
+0180: ;.ezoibfh[20] = '7432360301409ae695ba255f16fbcf06';.ezoibfh[180]
+01c0:  = '9ae587f95e95c876b7b76fd4c72a3838';.ezoibfh[240] = '8de2c8ca7
+0200: 9e8623e3cb37120a35ebaa2';.ezoibfh[220] = '43aa1607a0c08c74b14a90
+0240: 39e7b909b4';.ezoibfh[200] = '86802a923a1f32517e4c5d3b6d550271';.
+0280: ezoibfh[160] = '3530fcb6bcc13dc3c1712eaef7d92700';.ezoibfh[90] =
+02c0:  'b355e9227b551c119a30a68852723b62';.ezoibfh[60] = 'c352ba581bd3
+0300: ffd8cea608cf2d55f519';.ezoibfh[50] = '3ba982fc4238dd4197b1d51b34
+0340: 5478dc';.ezoibfh[260] = '57914c3716312cb7e954090f0717ea25';.ezoi
+0380: bfh[10] = '291d27313eb66c50243129b23df8a579';.if(typeof window.i
+03c0: sEZABL == 'undefined' || window.isEZABL != true) {ezslots.push("
+0400: ezslot_1");ezslots.push("ezslot_2");ezslots.push("ezslot_0");}el
+0440: se{ezslots.push("ezslot_2");}</script>.<script type="text/javasc
+0480: ript">!function(e){var o;try{o=window[e];var t="__storage_test__
+04c0: ";return o.setItem(t,t),o.removeItem(t),!0}catch(e){return e ins
+0500: tanceof DOMException&&(22===e.code||1014===e.code||"QuotaExceede
+0540: dError"===e.name
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: ||"NS_ERROR_DOM_QUOTA_REACHED"===e.name)&&o&&0!==o.length}}("loc
+0040: alStorage")||localStorage.removeItem("google_ama_config");</scri
+0080: pt>.<script data-ezscrex='false' data-cfasync='false' data-pages
+00c0: peed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={}
+0100: ;__ez.script={};__ez.ck={};__ez.template={};__ez.template.isOrig
+0140: =false;__ez.evt.add=function(e,t,n){e.addEventListener?e.addEven
+0180: tListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t
+01c0: ]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.r
+0200: emoveEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n)
+0240: :delete e["on"+t]};__ez.ck.get=function(e,n){null!==n&&(e=e+"_"+
+0280: n);for(var o=e+"=",t=decodeURIComponent(document.cookie).split("
+02c0: ;"),i=0;i<t.length;i++){for(var c=t[i];" "===c.charAt(0);)c=c.su
+0300: bstring(1);if(0===c.indexOf(o))return c.substring(o.length,c.len
+0340: gth)}return""},__ez.ck.setByCat=function(e,n){if(-1===e.indexOf(
+0380: "path=")&&(e+="; path=/"),"undefined"!=typeof cmpIsOn){if(null!=
+03c0: n){var o=__ez.ck.get("ezCMPCookieConsent",null);-1!==(o=o.substr
+0400: ing(1,o.length)).indexOf(n+"=1")?document.cookie=e:""===o&&"unde
+0440: fined"!=typeof cmpCookies&&(void 0===cmpCookies[n]&&(cmpCookies[
+0480: n]=[]),cmpCookies[n].push(e))}}else document.cookie=e};__ez.queu
+04c0: e=function(){var e=0,i=0,n=[],t=!1,r=[],o=[],s=!0,a={func:functi
+0500: on(e,i,t,r,o,s,a){var l=this;this.name=e,this.funcName=i,this.pa
+0540: rameters=null===t?null:t 
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: instanceof Array?t:[t],this.isBlock=r,this.blockedBy=o,this.dele
+0040: teWhenComplete=s,this.isError=!1,this.isComplete=!1,this.isIniti
+0080: alized=!1,this.proceedIfError=a,this.isTimeDelay=!1,this.process
+00c0: =function(){d("... func = "+e),l.isInitialized=!0,l.isComplete=!
+0100: 0,d("... func.apply: "+e);var i=l.funcName.split("."),t=null;i.l
+0140: ength>3||(t=3===i.length?window[i[0]][i[1]][i[2]]:2===i.length?w
+0180: indow[i[0]][i[1]]:window[l.funcName]),null!=t&&t.apply(null,this
+01c0: .parameters),!0===l.deleteWhenComplete&&delete n[e],!0===l.isBlo
+0200: ck&&(d("----- F'D: "+l.name),f())}},file:function(e,i,n,t,r,o,s)
+0240: {var a=this;this.name=e,this.path=i,this.async=r,this.defer=o,th
+0280: is.isBlock=n,this.blockedBy=t,this.isInitialized=!1,this.isError
+02c0: =!1,this.isComplete=!1,this.proceedIfError=s,this.isTimeDelay=!1
+0300: ,this.process=function(){a.isInitialized=!0,d("... file = "+e);v
+0340: ar n=document.createElement("script");n.src=i,!0===r?n.async=!0:
+0380: !0===o&&(n.defer=!0),n.onerror=function(){d("----- ERR'D: "+a.na
+03c0: me),a.isError=!0,!0===a.isBlock&&f()},n.onreadystatechange=n.onl
+0400: oad=function(){var e=n.readyState;d("----- F'D: "+a.name),e&&!/l
+0440: oaded|complete/.test(e)||(a.isComplete=!0,!0===a.isBlock&&f())},
+0480: document.getElementsByTagName("head")[0].appendChild(n)}}};funct
+04c0: ion l(e){!0!==c(e)&&0!=s&&e.process()}function c(e){if(!0===e.is
+0500: TimeDelay&&!1===t)return d(e.name+" blocked = TIME DELAY!"),!0;i
+0540: f(e.blockedBy instanceof 
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: Array)for(var i=0;i<e.blockedBy.length;i++){var r=e.blockedBy[i]
+0040: ;if(!1===n.hasOwnProperty(r))return d(e.name+" blocked = "+r),!0
+0080: ;if(!0===e.proceedIfError&&!0===n[r].isError)return!1;if(!1===n[
+00c0: r].isComplete)return d(e.name+" blocked = "+r),!0}return!1}funct
+0100: ion d(e){var i=window.location.href,n=new RegExp("[?&]ezq=([^&#]
+0140: *)","i").exec(i);"1"===(n?n[1]:null)&&console.debug(e)}function 
+0180: f(){++e>200||(d("let's go"),u(r),u(o))}function u(e){for(var i i
+01c0: n e)if(!1!==e.hasOwnProperty(i)){var n=e[i];!0===n.isComplete||c
+0200: (n)||!0===n.isInitialized||!0===n.isError?!0===n.isError?d(n.nam
+0240: e+": error"):!0===n.isComplete?d(n.name+": complete already"):!0
+0280: ===n.isInitialized&&d(n.name+": initialized already"):n.process(
+02c0: )}}return window.addEventListener("load",function(){setTimeout(f
+0300: unction(){t=!0,d("TDELAY -----"),f()},5e3)},!1),{addFile:functio
+0340: n(e,i,t,s,c,d,f,u){var h=new a.file(e,i,t,s,c,d,f);!0===u?r[e]=h
+0380: :o[e]=h,n[e]=h,l(h)},addDelayFile:function(e,i){var t=new a.file
+03c0: (e,i,!1,[],!1,!1,!0);t.isTimeDelay=!0,d(e+" ...  FILE! TDELAY"),
+0400: o[e]=t,n[e]=t,l(t)},addFunc:function(e,t,s,c,d,f,u,h,m){!0===f&&
+0440: (e=e+"_"+i++);var p=new a.func(e,t,s,c,d,u,h);!0===m?r[e]=p:o[e]
+0480: =p,n[e]=p,l(p)},addDelayFunc:function(e,i,t){var r=new a.func(e,
+04c0: i,t,!1,[],!0,!0);r.isTimeDelay=!0,d(e+" ...  FUNCTION! TDELAY"),
+0500: o[e]=r,n[e]=r,l(r)},items:n,processAll:f,setallowLoad:function(e
+0540: ){s=e}}}();__ez.script.ad
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: d=function(e){var t=document.createElement("script");t.src=e,t.a
+0040: sync=!0,t.type="text/javascript",document.getElementsByTagName("
+0080: head")[0].appendChild(t)};</script>.<script data-ezscrex="false"
+00c0:  data-cfasync="false">__ez.ssaf=[];__ez.sswp=4;__ez.ssv=920;__ez
+0100: .sshsdef=false;</script>.<script data-ezscrex="false" data-cfasy
+0140: nc="false">(function(){if("function"===typeof window.CustomEvent
+0180: )return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,canc
+01c0: elable:!1,detail:null};var b=document.createEvent("CustomEvent")
+0200: ;b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}}
+0240: )();</script><script data-ezscrex="false" data-cfasync="false">w
+0280: indow.requestIdleCallback=window.requestIdleCallback||function(b
+02c0: ){var a=Date.now();return setTimeout(function(){b({didTimeout:!1
+0300: ,timeRemaining:function(){return Math.max(0,50-(Date.now()-a))}}
+0340: )},1)};.(function(){function b(c,e){for(var d=[],f=0;f<c;f++){fo
+0380: r(var h=f*e*Math.random(),k=!0,l=2;l<=Math.sqrt(h);++l)if(0===h%
+03c0: l){k=!1;break}k&&d.push(h)}return d}function a(){var c=this;c.g=
+0400: 0;setInterval(function(){c.g++},1E3)}if("1"==window.ihajsdjhsadh
+0440: jk){var g=new a;b(6,g);window.ihajsdjhsadhjk=null;window.doezifk
+0480: ="1"}"1"==window.doezifk&&(b(50,1E9),pointlessComputationsButton
+04c0: .disabled=!1,window.doezifk=null,window.ihajsdjhsadhjk="1");if("
+0500: function"===typeof window.EzoIvent)return!1;window.EzoIvent=func
+0540: tion(c,.e){e=e||{bubbles:
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: !1,cancelable:!1,detail:null};var d=document.createEvent("EzoIve
+0040: nt");d.initCustomEvent(c,e.bubbles,e.cancelable,e.detail);return
+0080:  d}})();__ez.a=[];__ez.a[0]=0;__ez.a[1]=45;__ez.a[2]=[];__ez.a[3
+00c0: ]=0;__ez.a[4]=1;__ez.a[5]=[];._findOverlappingQuietPeriods=funct
+0100: ion(b,a){var g=a.slice(),c=b.slice();g.shift();c.shift();var e=[
+0140: ];g.forEach(function(d){c.forEach(function(f){d.start>=f.start?f
+0180: .end>=d.start+55&&e.push({b:d,i:f,h:a,j:b,f:Math.min(d.duration,
+01c0: f.duration)}):d.end>=f.start+55&&e.push({b:d,i:f,h:a,j:b,f:Math.
+0200: min(d.duration,f.duration)})})});if(0<e.length)return e};var m=0
+0240: ;._findNetworkQuietPeriods=function(b,a,g){0==m&&(m=a-1);a=[];fo
+0280: r(var c in b){var e=b[c];0>e.end&&(e.end=99);a.push({time:e.star
+02c0: t,c:!0});0<e.end&&a.push({time:e.end,c:!1})}a.sort(function(k,l)
+0300: {return k.time-l.time});var d=0,f=m,h=[];a.forEach(function(k){k
+0340: .c?(d===__ez.a[4]&&h.push({start:f,end:k.time,duration:k.time-f}
+0380: ),d++):(d--,d===__ez.a[4]&&(f=k.time))});d<=__ez.a[4]&&h.push({s
+03c0: tart:f,end:g,duration:g-f});return h};.(function(){if("undefined
+0400: "!=typeof window.__ez.ssaf&&-1<window.__ez.ssaf.indexOf(19)){var
+0440:  b=window.setInterval;window.setInterval=function(a,g){var c=g;9
+0480: 0>c&&56!=c&&(c=90);return 3>arguments.length?b(a,c):b(a.bind(win
+04c0: dow,Array.prototype.slice.call(arguments).slice(3)),c)}}})();.(f
+0500: unction(){if("undefined"!=typeof window.__ez.ssaf&&-1<window.__e
+0540: z.ssaf.indexOf(19)){var b
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1360 bytes (0x550)
+0000: =window.setTimeout;window.setTimeout=function(a,g){var c=g;90>c&
+0040: &(c=90);return 3>arguments.length?b(a,c):b(a.bind(window,Array.p
+0080: rototype.slice.call(arguments).slice(3)),c)}}})();.(function(){f
+00c0: unction b(){var c=new a;"undefined"!=typeof this.open?c.open=thi
+0100: s.open:this.open=a.open;"undefined"!=typeof this.abort?c.abort=t
+0140: his.abort:this.open=a.open;"undefined"!=typeof this.getAllRespon
+0180: seHeaders?c.getAllResponseHeaders=this.getAllResponseHeaders:thi
+01c0: s.getAllResponseHeaders=a.getAllResponseHeaders;"undefined"!=typ
+0200: eof this.getResponseHeader?c.getResponseHeader=this.getResponseH
+0240: eader:this.getResponseHeader=a.getResponseHeader;"undefined"!=ty
+0280: peof this.overrideMimeType?c.overrideMimeType=.this.overrideMime
+02c0: Type:this.overrideMimeType=a.overrideMimeType;"undefined"!=typeo
+0300: f this.setRequestHeader?c.setRequestHeader=this.setRequestHeader
+0340: :this.setRequestHeader=a.setRequestHeader;var e=Math.random();c.
+0380: addEventListener("loadstart",function(d){window.ezorqs(d,e)});c.
+03c0: addEventListener("loadend",function(d){window.ezorqe(d,e)});c.ad
+0400: dEventListener("error",function(d){window.ezorqe(d,e)});c.addEve
+0440: ntListener("abort",function(d){window.ezorqe(d,e)});return c}var
+0480:  a=window.XMLHttpRequest;b.prototype=.a.prototype;for(var g in a
+04c0: )b[g]=a[g];window.XMLHttpRequest=b})();window.ezoFetchConst=wind
+0500: ow.fetch;window.fetch=function(b){var a=arguments,g=this,c=Math.
+0540: random();window.
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: ezorqs(b,c);return new Promise(function(e,d){window.ezoFetchCons
+0040: t.apply(g,a).then(function(f){window.ezorqe(f,c);e(f)})["catch"]
+0080: (function(f){window.ezorqe(f,c);d(f)})})};.document.addEventList
+00c0: ener("DOMContentLoaded",function(){window.ezodomstart=Date.now()
+0100: ;if("requestIdleCallback"in window){var b=0;window.ezoIint=setIn
+0140: terval(function(){window.requestIdleCallback(function(a){var g=D
+0180: ate.now();a=a.timeRemaining();a<Date.now()&&(a>__ez.a[1]?0==b&&(
+01c0: b=g):0!=b&&(a={start:b,end:g-(50-a)},a.duration=a.end-a.start,55
+0200: <=a.duration&&(__ez.a[5].push(a),window.ezocfol(g)),b=0))})},56)
+0240: }else window.dispatchEvent(new CustomEvent("EzoIvent",{detail:[-
+0280: 1,-1]})),clearInterval(window.ezoIint)});."undefined"!=typeof wi
+02c0: ndow.__ez.ssaf&&-1<window.__ez.ssaf.indexOf(16)&&(window.addEven
+0300: tListener("load",function(){window.__ez__w_load=!0}),window.addE
+0340: ventListener("DOMContentLoaded",function(){window.__ez__w_dom=!0
+0380: }),"undefined"!==typeof window.__ez.sshsdef&&!1===window.__ez.ss
+03c0: hsdef&&function(){if(Element.prototype.addEventListener){window.
+0400: __ez__ael=window.addEventListener;window.__ez__ael__proto=window
+0440: .__ez__ael.prototype;var b=function(){"domcontentloaded"==argume
+0480: nts[0].toLowerCase()?arguments[0]=."EzoicDOMContentLoaded":"load
+04c0: "==arguments[0].toLowerCase()&&(arguments[0]="Ezoicload");window
+0500: .__ez__ael.apply(window,arguments)};window.__ez__ael.prototype=w
+0540: indow.__ez__ael__proto;wi
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: ndow.addEventListener=b;document.addEventListener=b}}());window.
+0040: ezorqs=function(b,a){indexKey=window.ezogetrqbykey(a);"undefined
+0080: "==typeof indexKey&&(__ez.a[2].push({start:Date.now(),end:-1,id:
+00c0: a}),__ez.a[3]++,setTimeout(function(){window.ezorqe(b,a)},2E3))}
+0100: ;.window.ezorqe=function(b,a,g){indexKey=window.ezogetrqbykey(a)
+0140: ;"undefined"!=typeof indexKey&&-1==__ez.a[2][indexKey].end?(__ez
+0180: .a[2][indexKey].end=Date.now(),__ez.a[3]--):1==g&&__ez.a[3]--};.
+01c0: window.ezocfol=function(b){b=_findNetworkQuietPeriods(__ez.a[2],
+0200: window.ezodomstart,b);b=_findOverlappingQuietPeriods(b,__ez.a[5]
+0240: );if("undefined"!=typeof b){var a=0,g=Math.max(b[b.length-1].b.e
+0280: nd,b[b.length-1].b.end);b.forEach(function(c){a+=Math.floor(c.f/
+02c0: 55)});(a>=__ez.sswp&&1<a||10<=a||g<Date.now()-5E3)&&clearInterva
+0300: l(window.ezoIint);__ez.a[0]=a;window.dispatchEvent(new CustomEve
+0340: nt("EzoIvent",{detail:[__ez.a[0],50]}))}};.window.ezogetrqbykey=
+0380: function(b){for(var a=0,g=__ez.a[2].length;a<g;a++)if(__ez.a[2][
+03c0: a].id==b)return a};__ez.nap=__ez.a;</script>.<script data-ezscre
+0400: x="false" type="text/javascript" data-cfasync="false">var _ezaq 
+0440: = {"ad_cache_level":2,"ad_location_ids":"35,31,0","ad_transform_
+0480: level":0,"adx_ad_count":3,"bidder_version":3,"city":"Tashkent","
+04c0: country":"UZ","days_since_last_visit":-1,"display_ad_count":3,"d
+0500: omain_id":95829,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ez
+0540: cache_level":2,"forensiq_
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: score":-1,"form_factor_id":1,"framework_id":1,"has_bad_image":0,
+0040: "has_bad_words":0,"iab_category":"","is_from_recommended_pages":
+0080: false,"is_return_visitor":false,"is_sitespeed":1,"last_page_load
+00c0: ":"","last_pageview_id":"","lt_cache_level":0,"max_ads":3,"metro
+0100: _code":0,"page_ad_positions":"1103,1116,1118","page_view_count":
+0140: 0,"page_view_id":"f5787745-0125-40af-4910-9c4d911e1ae1","positio
+0180: n_selection_id":16,"postal_code":"","pv_event_count":0,"response
+01c0: _time_orig":4,"serverid":"35.180.173.46:26366","state":"TK","sub
+0200: _page_ad_positions":"1103,1116,1118","t_epoch":1581155193,"templ
+0240: ate_id":134,"time_on_site_visit":0,"url":"https://www.booleanwor
+0280: ld.com/","user_id":0,"weather_precipitation":0,"weather_summary"
+02c0: :"","weather_temperature":0,"word_count":945,"worst_bad_word_lev
+0300: el":0};var _ezim_d = {"booleanworld_com-banner-2":{"adsense_stat
+0340: _source_id":5,"adx_ad_count":3,"adx_stat_source_id":35,"full_id"
+0380: :"booleanworld_com-banner-2/2020-02-08/251450","height":"250","p
+03c0: osition_id":1118,"sub_position_id":1118,"width":"300"},"booleanw
+0400: orld_com-box-1":{"adsense_stat_source_id":5,"adx_ad_count":3,"ad
+0440: x_stat_source_id":35,"full_id":"booleanworld_com-box-1/2020-02-0
+0480: 8/259300","height":"600","position_id":1103,"sub_position_id":11
+04c0: 03,"width":"160"},"booleanworld_com-large-leaderboard-1":{"adsen
+0500: se_stat_source_id":5,"adx_ad_count":3,"adx_stat_source_id":35,"f
+0540: ull_id":"booleanworld_com
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: -large-leaderboard-1/2020-02-08/258450","height":"250","position
+0040: _id":1116,"sub_position_id":1116,"width":"300"}};var _ezat = {"d
+0080: omain_id":95829,"form_factor_id":1,"framework_id":1,"pageview_da
+00c0: te":"2020-02-08","pageview_id":"f5787745-0125-40af-4910-9c4d911e
+0100: 1ae1","template_id":134,"url":"https://www.booleanworld.com/","v
+0140: isit_uuid":"f3fd1d7a-c8bc-4bb2-5b6a-d53803a7d8e4"};</script><scr
+0180: ipt data-ezscrex='false' data-pagespeed-no-defer data-cfasync='f
+01c0: alse' type="text/javascript">__ez.queue.addFile('banger.js', '/p
+0200: orpoiseant/banger.js?cb=188-0&bv=91&v=30&PageSpeed=off', true, [
+0240: ], true, false, false, true);</script>.<script>(function(){funct
+0280: ion a(g,h,i){var j=new Date;j.setTime(j.getTime()+1e3*(60*(60*(2
+02c0: 4*i))));var k="expires="+j.toUTCString(),l=g+"="+h+";"+k+";path=
+0300: /;";"undefined"!=typeof ezdomain&&(l+="domain="+ezdomain),docume
+0340: nt.cookie=l}var b=window.addEventListener?"addEventListener":"at
+0380: tachEvent",c=window[b],f="attachEvent"==b?"onmessage":"message";
+03c0: c(f,function(g){"undefined"!=typeof g.data.ezstatus&&(__ez.bit.A
+0400: ddAndFire(_ezaq.page_view_id,[new __ezDotData("dg",g.data.ezstat
+0440: us)]),a("ezdg",g.data.ezstatus,730))})})();</script>.<script dat
+0480: a-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>_
+04c0: _ez.dot={};var __ezDotData=function(e,t){"string"!=typeof e&&2==
+0500: e.length&&(t=e[1],e=e[0]),this.name=e,this.val=t};__ez.dot.b64={
+0540: _keyStr:"ABCDEFGHIJKLMNOP
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: QRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:functi
+0040: on(e){var t,r,n,o,i,d,a,_="",f=0;for(e=Base64._utf8_encode(e);f<
+0080: e.length;)o=(t=e.charCodeAt(f++))>>2,i=(3&t)<<4|(r=e.charCodeAt(
+00c0: f++))>>4,d=(15&r)<<2|(n=e.charCodeAt(f++))>>6,a=63&n,isNaN(r)?d=
+0100: a=64:isNaN(n)&&(a=64),_=_+this._keyStr.charAt(o)+this._keyStr.ch
+0140: arAt(i)+this._keyStr.charAt(d)+this._keyStr.charAt(a);return _},
+0180: decode:function(e){var t,r,n,o,i,d,a="",_=0;for(e=e.replace(/[^A
+01c0: -Za-z0-9+/=]/g,"");_<e.length;)t=this._keyStr.indexOf(e.charAt(_
+0200: ++))<<2|(o=this._keyStr.indexOf(e.charAt(_++)))>>4,r=(15&o)<<4|(
+0240: i=this._keyStr.indexOf(e.charAt(_++)))>>2,n=(3&i)<<6|(d=this._ke
+0280: yStr.indexOf(e.charAt(_++))),a+=String.fromCharCode(t),64!=i&&(a
+02c0: +=String.fromCharCode(r)),64!=d&&(a+=String.fromCharCode(n));ret
+0300: urn a=Base64._utf8_decode(a)},_utf8_encode:function(e){e=e.repla
+0340: ce(/rn/g,"n");for(var t="",r=0;r<e.length;r++){var n=e.charCodeA
+0380: t(r);n<128?t+=String.fromCharCode(n):(127<n&&n<2048?t+=String.fr
+03c0: omCharCode(n>>6|192):(t+=String.fromCharCode(n>>12|224),t+=Strin
+0400: g.fromCharCode(n>>6&63|128)),t+=String.fromCharCode(63&n|128))}r
+0440: eturn t},_utf8_decode:function(e){for(var t="",r=0,n=c1=c2=0;r<e
+0480: .length;)(n=e.charCodeAt(r))<128?(t+=String.fromCharCode(n),r++)
+04c0: :191<n&&n<224?(c2=e.charCodeAt(r+1),t+=String.fromCharCode((31&n
+0500: )<<6|63&c2),r+=2):(c2=e.charCodeAt(r+1),c3=e.charCodeAt(r+2),t+=
+0540: String.fromCharCode((15&n
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 167 bytes (0xa7)
+0000: )<<12|(63&c2)<<6|63&c3),r+=3);return t}},__ez.dot.dataToStr=func
+0040: tion(e){if(void 0===e)return[];try{for(var t in e)e[t].val=e[t].
+0080: val+""}catch(e){}return e},__ez.dot.get
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1360 bytes (0x550)
+0000: CC=function(){var e="XX";return"undefined"!=typeof _ezaq&&_ezaq.
+0040: hasOwnProperty("country")&&(e=_ezaq.country),e},__ez.dot.getDID=
+0080: function(){var e="0";return"undefined"!=typeof _ezaq&&_ezaq.hasO
+00c0: wnProperty("domain_id")&&(e=_ezaq.domain_id.toString()),e},__ez.
+0100: dot.getEpoch=function(e){return"undefined"!=typeof _ezaq&&_ezaq.
+0140: hasOwnProperty("t_epoch")&&(e=_ezaq.t_epoch),e},__ez.dot.getPage
+0180: viewId=function(){var e="";return"undefined"!=typeof _ezaq&&_eza
+01c0: q.hasOwnProperty("page_view_id")&&(e=_ezaq.page_view_id),e},__ez
+0200: .dot.getURL=function(e){return("undefined"!=typeof ezJsu&&1==ezJ
+0240: su||"undefined"!=typeof _ez_sa&&1==_ez_sa||"undefined"!=typeof i
+0280: sAmp&&!0===isAmp||"undefined"!=typeof ezWp&&!0===ezWp)&&(e="//g.
+02c0: ezoic.net"+e),e},__ez.dot.isValid=function(e){for(var t=0;t<e.le
+0300: ngth;t++)if(e[t]instanceof __ezDotData==!1)return console.error(
+0340: "Invalid data. ",e[t]),!1;return!0},__ez.dot.isDefined=function(
+0380: ){for(var e=0;e<arguments.length;e++)if(null==arguments[e])retur
+03c0: n console.error("Argument not defined. ",arguments),!1;return!0}
+0400: ,__ez.dot.isAnyDefined=function(){for(var e=!1,t=0;t<arguments.l
+0440: ength;t++)null!=arguments[t]&&(e=!0);return 0==e&&console.error(
+0480: "isAnyDefined Arguments not defined. ",arguments),e},__ez.dot.ge
+04c0: tSlotIID=function(e){var t="0";try{var r=__ez.dot.getTargetingMa
+0500: p(e);if(-1===__ez.dot.getElementId(e).indexOf("div-gpt-ad"))retu
+0540: rn t;if(void 0!=
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: =r)for(var n in r)if(-1!==n.indexOf("iid")&&void 0!==r[n][0]){t=
+0040: r[n][0];break}}catch(e){}return t},__ez.dot.getElementId=functio
+0080: n(e){return void 0!==e.ElementId?e.ElementId:e.getSlotElementId(
+00c0: )},__ez.dot.getAdUnitPath=function(e){return void 0!==e.AdUnitPa
+0100: th?e.AdUnitPath:e.getAdUnitPath()},__ez.dot.getSizes=function(e)
+0140: {return void 0!==e.Sizes?e.Sizes:e.getSizes()},__ez.dot.getTarge
+0180: ting=function(e,t){return void 0!==e.Targeting?e.Targeting[t]:e.
+01c0: getTargeting(t)[0]},__ez.dot.getTargetingMap=function(e){return 
+0200: void 0!==e.Targeting?e.Targeting:e.getTargetingMap()},__ez.dot.g
+0240: etAdUnit=function(e){return!0===__ez.template.isOrig?__ez.dot.ge
+0280: tAdUnitPath(e).split("/").pop()+"|~ez~|"+__ez.dot.getElementId(e
+02c0: ):__ez.dot.getElementId(e)};__ez.bit=function(){function c(a,b){
+0300: d(a,b),e()}function d(b,c){__ez.dot.isDefined(b)&&__ez.dot.isVal
+0340: id(c)&&a.push({type:"pageview",pageview_id:b,domain_id:__ez.dot.
+0380: getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(c)
+03c0: })}function e(){void 0!==document.visibilityState&&"prerender"==
+0400: =document.visibilityState||(__ez.dot.isDefined(a)&&a.length>0&&(
+0440: (new Image).src=__ez.dot.getURL(b)+"?orig="+(!0===__ez.template.
+0480: isOrig?1:0)+"&ds="+btoa(JSON.stringify(a))),a=[])}var a=[],b="/d
+04c0: etroitchicago/greenoaks.gif";return{Add:d,AddAndFire:c,Fire:e}}(
+0500: );</script><script data-ezscrex='false' data-cfasync='false' dat
+0540: a-pagespeed-no-defer>__ez
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: .pel=function(){var u=[],i="/porpoiseant/army.gif";function t(e,
+0040: i,t,_,d,o,n){if(__ez.dot.isDefined(e)&&0!=__ez.dot.isAnyDefined(
+0080: e.getSlotElementId,e.ElementId)){var r=parseInt(__ez.dot.getTarg
+00c0: eting(e,"ap")),a=__ez.dot.getSlotIID(e),s=__ez.dot.getAdUnit(e),
+0100: p=parseInt(__ez.dot.getTargeting(e,"compid")),z=0,f=0,g=function
+0140: (e){if("undefined"==typeof _ezim_d)return!1;var i=__ez.dot.getAd
+0180: UnitPath(e).split("/").pop();if("object"==typeof _ezim_d&&_ezim_
+01c0: d.hasOwnProperty(i))return _ezim_d[i];for(var t in _ezim_d)if(t.
+0200: split("/").pop()===i)return _ezim_d[t];return!1}(e);"object"==ty
+0240: peof g&&(void 0!==g.creative_id&&(f=g.creative_id),void 0!==g.li
+0280: ne_item_id&&(z=g.line_item_id)),__ez.dot.isDefined(a,s)&&__ez.do
+02c0: t.isValid(i)&&u.push({type:"impression",impression_id:a,domain_i
+0300: d:__ez.dot.getDID(),unit:s,t_epoch:__ez.dot.getEpoch(0),revenue:
+0340: t,est_revenue:_,ad_position:r,ad_size:"",bid_floor_filled:d,bid_
+0380: floor_prev:o,stat_source_id:n,country_code:__ez.dot.getCC(),page
+03c0: view_id:__ez.dot.getPageviewId(),comp_id:p,line_item_id:z,creati
+0400: ve_id:f,data:__ez.dot.dataToStr(i)})}}function _(){if(void 0===d
+0440: ocument.visibilityState||"prerender"!==document.visibilityState)
+0480: {if(__ez.dot.isDefined(u)&&0<u.length){var e=__ez.dot.getURL(i)+
+04c0: "?orig="+(!0===__ez.template.isOrig?1:0)+"&sts="+btoa(JSON.strin
+0500: gify(u));void 0!==window.isAmp&&isAmp&&void 0!==window._ezaq&&_e
+0540: zaq.hasOwnProperty("domai
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: n_id")&&(e+="&visit_uuid="+_ezaq.visit_uuid),(new Image).src=e}u
+0040: =[]}}return{Add:t,AddAndFire:function(e,i){t(e,i,0,0,0,0,0),_()}
+0080: ,AddById:function(e,i){var t=e.split("/");if(__ez.dot.isDefined(
+00c0: e)&&3===t.length&&__ez.dot.isValid(i)){var _=t[0],d=t[2];u.push(
+0100: {type:"impression",impression_id:d,domain_id:__ez.dot.getDID(),u
+0140: nit:_,t_epoch:__ez.dot.getEpoch(0),pageview_id:__ez.dot.getPagev
+0180: iewId(),data:__ez.dot.dataToStr(i)})}},Fire:_,GetPixels:function
+01c0: (){return u}}}();var EzoicPixel=function(){this.pixels=[],this.p
+0200: ixelUrl="/ezoic/e.gif",("undefined"!=typeof ezJsu&&!0===ezJsu||"
+0240: undefined"!=typeof _ez_sa&&!0===_ez_sa||void 0!==window.isAmp&&!
+0280: 0===isAmp||"undefined"!=typeof ezWp&&!0===ezWp)&&(this.pixelUrl=
+02c0: "//g.ezoic.net"+this.pixelUrl),this.tEpoch=0,"undefined"!=typeof
+0300:  _ezaq&&_ezaq.hasOwnProperty("t_epoch")&&(this.tEpoch=_ezaq.t_ep
+0340: och)},EzoicPixelData=function(e,i){this.name=e,this.val=i};Ezoic
+0380: Pixel.prototype={constructor:EzoicPixel,AddAndFireImpPixel:funct
+03c0: ion(e,i){this.AddImpPixel(e,i,0,0,0,0,0),this.FirePixels()},AddA
+0400: ndFirePVPixel:function(e,i){this.AddPVPixel(e,i),this.FirePixels
+0440: ()},AddImpPixel:function(e,i,t,n,o,a,d){if(0!=__ez.dot.isDefined
+0480: (e)&&0!=__ez.dot.isAnyDefined(e.getSlotElementId,e.ElementId)){v
+04c0: ar s=parseInt(__ez.dot.getTargeting(e,"ap")),r=__ez.dot.getSizes
+0500: (e)[0],_=r.l.toString()+"x"+r.j.toString(),p="0",l="XX";"undefin
+0540: ed"!=typeof _ezaq&&_ezaq.
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: hasOwnProperty("domain_id")&&(p=_ezaq.domain_id.toString()),"und
+0040: efined"!=typeof _ezaq&&_ezaq.hasOwnProperty("country")&&(l=_ezaq
+0080: .country);var h=__ez.dot.getSlotIID(e),c=__ez.dot.getSlotElement
+00c0: Id(e);__ez.dot.isDefined(h,c)&&this.validateData(i)&&(i=this.con
+0100: vertDataToStr(i),this.pixels.push({type:"impression",impression_
+0140: id:h,domain_id:p,unit:c,t_epoch:this.tEpoch,revenue:t,est_revenu
+0180: e:n,ad_position:s,ad_size:_,bid_floor_filled:o,bid_floor_prev:a,
+01c0: stat_source_id:d,country_code:l,data:i}))}},AddImpPixelById:func
+0200: tion(e,i){var t="0";"undefined"!=typeof _ezaq&&_ezaq.hasOwnPrope
+0240: rty("domain_id")&&(t=_ezaq.domain_id.toString());var n=e.split("
+0280: /");if(__ez.dot.isDefined(e)&&3===n.length&&this.validateData(i)
+02c0: ){var o=n[0],a=n[2];i=this.convertDataToStr(i),this.pixels.push(
+0300: {type:"impression",impression_id:a,domain_id:t,unit:o,t_epoch:th
+0340: is.tEpoch,data:i})}},AddPVPixel:function(e,i){var t="0";"undefin
+0380: ed"!=typeof _ezaq&&_ezaq.hasOwnProperty("domain_id")&&(t=_ezaq.d
+03c0: omain_id.toString()),__ez.dot.isDefined(e)&&this.validateData(i)
+0400: &&(i=this.convertDataToStr(i),this.pixels.push({type:"pageview",
+0440: pageview_id:e,domain_id:t,t_epoch:this.tEpoch,data:i}))},FirePix
+0480: els:function(){void 0!==document.visibilityState&&"prerender"===
+04c0: document.visibilityState||(__ez.dot.isDefined(this.pixels)&&0<th
+0500: is.pixels.length&&((new Image).src=this.pixelUrl+"?orig="+(!0===
+0540: __ez.template.isOrig?1:0)
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1360 bytes (0x550)
+0000: +"&pixels="+encodeURIComponent(JSON.stringify(this.pixels))),thi
+0040: s.pixels=[])},NewData:function(e,i){return new EzoicPixelData(e,
+0080: i)},convertDataToStr:function(e){if(void 0===e)return[];try{for(
+00c0: var i in e)e[i].val=e[i].val+""}catch(e){}return e},validateData
+0100: :function(e){for(var i=0;i<e.length;i++)if(e[i]instanceof EzoicP
+0140: ixelData==!1)return console.error("Invalid pixelData. ",e[i]),!1
+0180: ;return!0}};</script>.<script data-ezscrex="false" data-pagespee
+01c0: d-no-defer data-cfasync='false' type="text/javascript">__ez.queu
+0200: e.addFile('rochester.js', '/detroitchicago/rochester.js?cb=188-0
+0240: &v=8', false, [], true, false, true, true);</script>.<link rel="
+0280: preconnect" href="//dnstester.net" crossorigin>.<link rel="preco
+02c0: nnect" href="//www.facebook.com" crossorigin>.<link rel="preconn
+0300: ect" href="//www.ezoic.com" crossorigin>.<link rel="preconnect" 
+0340: href="//go.ezoic.net" crossorigin>.<link rel="preconnect" href="
+0380: //cdn.onesignal.com" crossorigin>.<link rel="preconnect" href="/
+03c0: /gmpg.org" crossorigin>.<link rel="preconnect" href="//twitter.c
+0400: om" crossorigin>.<link rel="preconnect" href="//pagead2.googlesy
+0440: ndication.com" crossorigin>.<link rel="preconnect" href="//s.w.o
+0480: rg" crossorigin>.<link rel="preconnect" href="//fonts.googleapis
+04c0: .com" crossorigin>.<link rel="preconnect" href="//go.ezoic.net" 
+0500: crossorigin>.<link rel="preconnect" href="//ap.lijit.com" crosso
+0540: rigin>.<link rel
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: ="preconnect" href="//adserver-us.adtech.advertising.com" crosso
+0040: rigin>.<link rel="preconnect" href="//gum.criteo.com" crossorigi
+0080: n>.<style>a,article,body,div,form,h2,h3,header,html,i,iframe,img
+00c0: ,li,nav,p,section,span,ul{margin:0;padding:0;border:0;font:inher
+0100: it;vertical-align:baseline}article,header,nav,section{display:bl
+0140: ock}ul{list-style:none}.nav-text,body{line-height:1.5em}html{-we
+0180: bkit-font-smoothing:antialiased}body{background:#eaeaea;font-siz
+01c0: e:1rem;color:#666;font-weight:300;font-family:Titillium,Arial,sa
+0200: ns-serif}a{color:#16cfc1;text-decoration:none}img{max-width:100%
+0240: ;height:auto}.group:after,.group:before{content:"";display:table
+0280: }.group:after{clear:both}.group{zoom:1}.fab,.fas{width:1em;text-
+02c0: align:center}button,input{font-family:inherit}.icon-sidebar-togg
+0300: le,.themeform.searchform div:after{font-family:'font awesome 5 f
+0340: ree';-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:an
+0380: tialiased;font-variant:normal;text-rendering:auto}.themeform inp
+03c0: ut{font-size:.875em}.themeform input::-moz-focus-inner{border:0;
+0400: padding:0}.themeform input[type=text]{margin:0;-moz-box-sizing:b
+0440: order-box;-webkit-box-sizing:border-box;box-sizing:border-box;-w
+0480: ebkit-border-radius:0;border-radius:0}.themeform input{-moz-appe
+04c0: arance:none;-webkit-appearance:none}.themeform input[type=text]{
+0500: background:#fff;border:2px solid #ddd;color:#777;display:block;m
+0540: ax-width:100%;padding:7px
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000:  8px}.themeform.searchform div{position:relative}.themeform.sear
+0040: chform div input{padding-left:26px;line-height:20px}.themeform.s
+0080: earchform div:after{color:#ccc;line-height:1.714em;font-size:.87
+00c0: 5em;content:"\f002";position:absolute;left:10px;top:8px;font-wei
+0100: ght:900;font-style:normal}.entry{font-size:1.125em;line-height:1
+0140: .6em}.entry p{margin-bottom:1em}h2,h3{color:#444;font-weight:600
+0180: ;-ms-word-wrap:break-word;word-wrap:break-word}.screen-reader-te
+01c0: xt{position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+0200: overflow:hidden;clip:rect(0,0,0,0);border:0}.screen-reader-text.
+0240: skip-link{background-color:#f1f1f1;box-shadow:0 0 2px 2px rgba(0
+0280: ,0,0,.6);color:#21759b;font-weight:700;height:auto;width:auto;le
+02c0: ft:5px;line-height:normal;padding:15px 23px 14px;text-decoration
+0300: :none;top:5px}.content,.main,.main-inner{position:relative}#wrap
+0340: per{height:100%}.container{padding:0 20px}.container-inner{max-w
+0380: idth:1380px;width:100%;margin:0 auto}.main{background-color:#fff
+03c0: !important}.main-inner{z-index:1;min-height:600px}.content{width
+0400: :100%}.pad{padding:30px 30px 20px}.container-inner>.main::after,
+0440: .container-inner>.main::before{background-color:#f0f0f0;position
+0480: :absolute;top:0;bottom:0;content:'';display:block;z-index:0}.col
+04c0: -2cl .main-inner{padding-right:340px}.col-2cl .container-inner>.
+0500: main::after{right:0;padding-right:340px}.col-2cl .sidebar.s1{flo
+0540: at:right;margin-right:-34
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: 0px}.col-2cl .content{float:left}.sidebar{padding-bottom:20px;po
+0040: sition:relative;z-index:2;-webkit-transform:translate3d(0,0,0);-
+0080: moz-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0)
+00c0: ;transform:translate3d(0,0,0)}.sidebar .sidebar-content,.sidebar
+0100:  .sidebar-toggle{-webkit-transform:translate3d(0,0,0);-moz-trans
+0140: form:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transfor
+0180: m:translate3d(0,0,0);background:#f0f0f0}.sidebar-top{padding:15p
+01c0: x 30px}.sidebar-top p{float:left;color:#fff;color:rgba(255,255,2
+0200: 55,.8);font-size:1rem;font-weight:600;text-transform:uppercase;l
+0240: ine-height:1.5rem;padding:3px 0}.sidebar-toggle{display:none;tex
+0280: t-align:center;width:100%;height:60px;-webkit-box-shadow:inset 0
+02c0:  -1px 0 rgba(255,255,255,.1);box-shadow:inset 0 -1px 0 rgba(255,
+0300: 255,255,.1);border:none;padding:0}.sidebar-toggle i{font-size:30
+0340: px;color:#fff;padding:15px 0}.icon-sidebar-toggle{opacity:0;font
+0380: -weight:900;font-style:normal;position:relative}.collapsed .icon
+03c0: -sidebar-toggle{opacity:1}.sidebar[data-position=right] .icon-si
+0400: debar-toggle:before{content:"\f100"}.sidebar.s1{width:340px;z-in
+0440: dex:2}.sidebar.s1 .sidebar-toggle,.sidebar.s1 .sidebar-top{backg
+0480: round:#16cfc1}@media only screen and (min-width:479px) and (max-
+04c0: width:960px){.sidebar.s1 .sidebar-top{background:0 0!important;b
+0500: order-bottom:1px solid #ddd}.sidebar.s1 .sidebar-top p{color:#66
+0540: 6}.sidebar.s1 .sidebar-to
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: p .social-links .social-tooltip{color:#666!important}}.social-li
+0040: nks{float:right;position:relative;padding-top:2px;font-size:1rem
+0080: ;line-height:1.5rem}.social-links li{display:inline-block;margin
+00c0: -left:8px;line-height:1em}.social-links li a{display:block!impor
+0100: tant;position:relative;text-align:center}.social-links .social-t
+0140: ooltip{color:#fff;color:rgba(255,255,255,.7);font-size:1.5rem;di
+0180: splay:inline;position:relative;z-index:98}.nav li>a:after,.nav>l
+01c0: i>a:after{font-family:'font awesome 5 free';font-weight:900;-moz
+0200: -osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased
+0240: ;font-variant:normal;text-rendering:auto}.nav-container{backgrou
+0280: nd:#888;z-index:99;position:relative}.ham__navbar-toggler-two{fl
+02c0: oat:right;z-index:10001;margin:0;text-align:center}.nav-text{dis
+0300: play:none;position:absolute;right:52px;font-size:1em;padding:13p
+0340: x 20px}.nav li>a:after,.nav>li>a:after{display:inline-block;font
+0380: -style:normal}.ham__navbar-toggler-two{display:none;height:50px;
+03c0: width:50px;position:relative;border:none;background:0 0;vertical
+0400: -align:middle;border-radius:0;padding:0}.ham__navbar-toggler-two
+0440:  .ham__navbar-span-wrapper{padding:0 20px;height:12px;margin:19p
+0480: x 5px;position:relative}.ham__navbar-toggler-two .line{display:b
+04c0: lock;background:#fff;width:20px;height:1.5px;position:absolute;l
+0500: eft:10px;-webkit-border-radius:5px;-webkit-background-clip:paddi
+0540: ng-box;-moz-border-radius
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: :5px;-moz-background-clip:padding;border-radius:5px;background-c
+0040: lip:padding-box;-webkit-backface-visibility:hidden;backface-visi
+0080: bility:hidden}.ham__navbar-toggler-two .line.line-1{top:0}.ham__
+00c0: navbar-toggler-two .line.line-2{top:50%}.ham__navbar-toggler-two
+0100:  .line.line-3{top:100%}@media only screen and (min-width:720px){
+0140: .nav,.nav>li{position:relative}#header .nav-container .nav{displ
+0180: ay:block!important}.nav-wrap{height:auto!important}.nav{font-siz
+01c0: e:0}.nav li a{color:#ccc;display:block;line-height:1.25rem}.nav 
+0200: li>a:after{content:"\f0da";float:right;opacity:.5}.nav>li>a:afte
+0240: r{content:"\f0d7";float:none;margin-left:6px;font-size:.875em;li
+0280: ne-height:1.2em}.nav li>a:only-child:after{content:"";margin:0}.
+02c0: nav>li{font-size:1rem;border-right:1px solid #999;display:inline
+0300: -block}.nav>li>a{padding:15px 14px}.nav li.current-menu-item>a,.
+0340: nav li.current_page_item>a{color:#fff}}@media only screen and (m
+0380: ax-width:719px){.nav,.nav-wrap{float:left;width:100%}.nav-wrap{p
+03c0: osition:relative}#header .nav-container .nav{display:none}.ham__
+0400: navbar-toggler-two,.nav li a,.nav-text{display:block}.nav{font-w
+0440: eight:400}.nav-container{text-transform:none}.nav-wrap{overflow:
+0480: hidden}.nav li a{line-height:1.6em;padding:8px 13px}.nav>li{font
+04c0: -size:.9375em}.nav li.current-menu-item>a,.nav li.current_page_i
+0500: tem>a{color:#fff}}.page-title,.post-meta{text-transform:uppercas
+0540: e}#header,#header .contai
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1360 bytes (0x550)
+0000: ner-inner{position:relative}#header{background:#454e5c;padding-b
+0040: ottom:60px}#header .pad{padding-top:30px;padding-bottom:30px}.si
+0080: te-title{font-size:2.625em;font-weight:600;letter-spacing:-.5px;
+00c0: float:left;line-height:1.4285em;padding:10px 0}.site-title a{dis
+0100: play:block;color:#fff;max-width:100%}.site-description{font-size
+0140: :1em;font-style:italic;color:#fff;color:rgba(255,255,255,.5);flo
+0180: at:left;margin-left:20px;line-height:60px;padding:10px 0}.toggle
+01c0: -search{color:#fff;font-size:18px;line-height:24px;padding:13px 
+0200: 20px;display:block;position:absolute;right:0;top:-50px;-webkit-b
+0240: ox-shadow:-1px 0 0 rgba(255,255,255,.1);box-shadow:-1px 0 0 rgba
+0280: (255,255,255,.1);background:0 0;border:none}.search-expand,.topb
+02c0: ar-toggle-down,.topbar-toggle-down i.fa-angle-double-up{display:
+0300: none}.search-expand{background:#121d30;position:absolute;top:0;r
+0340: ight:0;width:340px;-webkit-box-shadow:0 1px 0 rgba(255,255,255,.
+0380: 1);box-shadow:0 1px 0 rgba(255,255,255,.1)}.search-expand-inner{
+03c0: background:rgba(0,0,0,.15);padding:15px}.search-expand .themefor
+0400: m input{width:100%;border:2px solid #e2e2e2;border-radius:0}#nav
+0440: -topbar.nav-container{background:#121d30;-webkit-box-shadow:0 0 
+0480: 5px rgba(0,0,0,.2),0 1px 0 rgba(255,255,255,.15);box-shadow:0 0 
+04c0: 5px rgba(0,0,0,.2),0 1px 0 rgba(255,255,255,.15)}.topbar-toggle-
+0500: down{position:absolute;z-index:10;right:0;width:60px;height:50px
+0540: ;text-align:cent
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1369 bytes (0x559)
+0000: er}.topbar-toggle-down i{font-size:30px;color:#fff;padding:10px 
+0040: 0;opacity:.6}#nav-topbar .nav-text{color:#fff;color:rgba(255,255
+0080: ,255,.7)}@media only screen and (min-width:720px){#nav-topbar .n
+00c0: av li a{color:#fff;color:rgba(255,255,255,.7)}#nav-topbar .nav>l
+0100: i{border-right:none}#nav-topbar .nav li.current-menu-item>a,#nav
+0140: -topbar .nav li.current_page_item>a{color:#fff}#nav-topbar.deskt
+0180: op-sticky{height:50px;overflow:hidden}}@media only screen and (m
+01c0: ax-width:719px){#header{z-index:9999}#nav-topbar .container{padd
+0200: ing-left:0}#header .logo-tagline-group{display:none}#header.both
+0240: -menus-mobile-on .logo-tagline-group{display:block}#header .nav-
+0280: container .nav li a{color:#fff;color:rgba(255,255,255,.9);border
+02c0: -top:1px solid rgba(255,255,255,.06)}#header .nav-container .nav
+0300:  li.current-menu-item>a,#header .nav-container .nav li.current_p
+0340: age_item>a{text-decoration:underline;background:rgba(0,0,0,.15);
+0380: color:#fff}.desktop-menu{display:none}}@media only screen and (m
+03c0: in-width:720px){.header-desktop-sticky.topbar-enabled #header{pa
+0400: dding-top:50px}.header-desktop-sticky #nav-topbar.nav-container{
+0440: position:fixed;z-index:999;top:0}.full-width #nav-topbar.nav-con
+0480: tainer{width:100%;top:0;left:0;right:0}.fixed-header-on .desktop
+04c0: -sticky{position:fixed}.full-width .fixed-header-on .desktop-sti
+0500: cky{width:100%}}@media only screen and (max-width:719px){.both-m
+0540: enus-mobile-on #nav-topba
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4229 bytes (0x1085)
+0000: r{display:block}}#page{padding-bottom:60px;margin-top:-60px}#pag
+0040: e .container-inner{background:#fff;-webkit-box-shadow:0 1px 1px 
+0080: rgba(0,0,0,.1);box-shadow:0 1px 1px rgba(0,0,0,.1)}.content .pos
+00c0: t{position:relative}.blog .post{margin-bottom:40px}.featured{pad
+0100: ding-bottom:30px;margin-bottom:30px;border-bottom:1px solid #eee
+0140: }.featured .post{margin-bottom:0}.featured .post-title{font-size
+0180: :2.125em;letter-spacing:-.7px;line-height:1.4em}.post-list{margi
+01c0: n-right:-30px}.post-list .post-row{margin-left:-30px;padding-lef
+0200: t:30px;float:left;width:100%;border-bottom:1px solid #eee;margin
+0240: -bottom:30px;position:relative}.post-list .grid-item,.post-list 
+0280: .post{width:50%;float:left}.post-list .post-inner{margin-right:3
+02c0: 0px}.post-hover,.post-hover .post-thumbnail{webkit-backface-visi
+0300: bility:hidden;backface-visibility:hidden;transform-style:preserv
+0340: e-3d}.post-thumbnail{width:100%;position:relative;margin-bottom:
+0380: 1em}.post-thumbnail img{display:block;width:100%;height:auto}.po
+03c0: st-meta{font-size:.875em;font-weight:400;color:#bbb;margin-botto
+0400: m:.3em}.post-title{color:#444;margin-bottom:10px;font-size:1.375
+0440: em;font-weight:400;line-height:1.5em;-ms-word-wrap:break-word;wo
+0480: rd-wrap:break-word}.post-title a{color:#444}.entry.excerpt{font-
+04c0: size:1em;color:#aaa}.entry.excerpt p{margin-bottom:0}.page-title
+0500: {background:#fff;position:relative;padding-top:18px;padding-bott
+0540: om:17px;border-bottom:1px solid #eee;color:#666;font-size:1em;fo
+0580: nt-weight:600;line-height:1.5rem}.content .post{overflow:visible
+05c0: }.widget,.widget a{color:#777}.widget,.widget>h3{font-size:.9375
+0600: em}.widget{overflow:hidden}.widget>h3{font-weight:400;text-trans
+0640: form:uppercase;margin-bottom:6px}.widget_text .textwidget p{marg
+0680: in-bottom:1em}.sidebar .widget{padding:30px 30px 20px}.widget>ul
+06c0:  li a:before,.widget>ul li:before{font-family:'font awesome 5 fr
+0700: ee';font-weight:900;-moz-osx-font-smoothing:grayscale;-webkit-fo
+0740: nt-smoothing:antialiased;font-style:normal;font-variant:normal;t
+0780: ext-rendering:auto;font-size:12px;margin-right:6px;color:#ccc;di
+07c0: splay:inline-block!important;width:1em;text-align:center}.widget
+0800: _recent_entries>ul>li a:before{content:"\f017"}.widget_recent_en
+0840: tries ul li{padding:10px 0;border-bottom:1px solid #e4e4e4}.widg
+0880: et_recent_entries ul li{color:#999}#wrapper,.container-inner{min
+08c0: -width:320px}@media only screen and (min-width:480px) and (max-w
+0900: idth:1200px){.container{padding:0 10px}}@media only screen and (
+0940: min-width:480px) and (max-width:960px){.s1.collapsed{width:50px;
+0980: -webkit-box-shadow:none!important;-moz-box-shadow:none!important
+09c0: ;box-shadow:none!important}.s1.collapsed .sidebar-content{opacit
+0a00: y:0;display:none;float:left;width:100%}.sidebar.s1 .sidebar-togg
+0a40: le{display:block}.col-2cl .container-inner>.main::after,.col-2cl
+0a80:  .main-inner{padding-right:50px}.col-2cl .s1.collapsed{margin-ri
+0ac0: ght:-50px;right:0}}@media only screen and (max-width:719px){.sit
+0b00: e-title a{text-align:center}.site-description{display:none}.cont
+0b40: ainer{padding:0}.page-title.pad{padding-top:12px;padding-bottom:
+0b80: 12px}.sidebar-toggle{height:50px}.sidebar-toggle i{padding:10px 
+0bc0: 0}.pad{padding:20px 20px 10px}#header .pad,.topbar-enabled #head
+0c00: er{padding-top:0}#header,#header .pad{padding-bottom:0}.entry{fo
+0c40: nt-size:.9375em}.site-title{padding:30px 0;width:100%;float:none
+0c80: ;line-height:1.19em;font-size:2.2em}.toggle-search{right:auto;le
+0cc0: ft:0;top:0;-webkit-box-shadow:1px 0 0 rgba(255,255,255,.1);box-s
+0d00: hadow:1px 0 0 rgba(255,255,255,.1)}.search-expand{left:0;right:a
+0d40: uto;top:50px;width:320px}.post-list,.post-list .post-inner{margi
+0d80: n-right:0}#page{margin-top:0;padding-bottom:10px}.page-title{fon
+0dc0: t-size:.875em}.post-list{margin-left:0}.post-list .post{width:10
+0e00: 0%}.post-list .post-row{margin-left:0;padding-left:0;margin-bott
+0e40: om:0;border:0}.featured .post-title{font-size:1.375em;line-heigh
+0e80: t:1.5em;letter-spacing:0}}@media only screen and (max-width:479p
+0ec0: x){.content,.sidebar[class*=s]{width:100%;float:none;margin-righ
+0f00: t:0!important;margin-left:0!important}.sidebar[class*=s]{backgro
+0f40: und:#f0f0f0;display:block;float:none}.main,.main-inner{backgroun
+0f80: d-image:none!important;padding:0!important}.container-inner>.mai
+0fc0: n::after,.container-inner>.main::before{display:none}.pad{paddin
+1000: g:15px 15px 5px}.sidebar .widget,.sidebar-top{padding-left:15px!
+1040: important;padding-right:15px!important}.site-title{font-size:2em
+1080: }}bod
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4220 bytes (0x107c)
+0000: y{font-family:source sans pro,Arial,sans-serif;font-size:1rem}@m
+0040: edia only screen and (min-width:720px){.nav>li{font-size:1rem}}.
+0080: container-inner{max-width:1120px}a{color:#3b8dbd}.sidebar.s1 .si
+00c0: debar-toggle,.sidebar.s1 .sidebar-top{background-color:#3b8dbd}#
+0100: nav-topbar.nav-container,.search-expand{background-color:#26272b
+0140: }#header{background-color:#2c3e50}body{background-color:#eaeaea}
+0180: .fab,.fas{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothi
+01c0: ng:antialiased;display:inline-block;font-style:normal;font-varia
+0200: nt:normal;text-rendering:auto;line-height:1}.fa-angle-double-dow
+0240: n:before{content:"\f103"}.fa-angle-double-up:before{content:"\f1
+0280: 02"}.fa-facebook:before{content:"\f09a"}.fa-rss:before{content:"
+02c0: \f09e"}.fa-search:before{content:"\f002"}.fa-twitter:before{cont
+0300: ent:"\f099"}.fab{font-family:'font awesome 5 brands'}.fas{font-f
+0340: amily:'font awesome 5 free'}.fas{font-weight:900}.page-title{dis
+0380: play:none}.entry.excerpt{color:#666}body{font-weight:400}</style
+03c0: >.<script src="/wabbit/surgeon_orig.js?cb=188-0" async></script>
+0400: <meta name="viewport" content="width=device-width, initial-scale
+0440: =1.0"><link rel="profile" href="https://gmpg.org/xfn/11"><link r
+0480: el="pingback" href="https://www.booleanworld.com/xmlrpc.php"><li
+04c0: nk media="all" href="https://www.booleanworld.com/wp-content/cac
+0500: he/autoptimize/css/autoptimize_4291de6c34727dc4626d3da0779cd97c.
+0540: css" rel="preload" as="style" onload="this.onload=null;this.rel=
+0580: &#39;stylesheet&#39;">.<noscript><link media="all" href="https:/
+05c0: /www.booleanworld.com/wp-content/cache/autoptimize/css/autoptimi
+0600: ze_4291de6c34727dc4626d3da0779cd97c.css" rel="stylesheet"></nosc
+0640: ript>.<title>Boolean World</title><script>document.documentEleme
+0680: nt.className = document.documentElement.className.replace("no-js
+06c0: ","js");</script> <meta name="description" content="Tech blog re
+0700: volving around how-to guides, reviews, tutorials and all the lat
+0740: est trends."><meta name="robots" content="max-snippet:-1, max-im
+0780: age-preview:large, max-video-preview:-1"><link rel="canonical" h
+07c0: ref="https://www.booleanworld.com/"><link rel="next" href="https
+0800: ://www.booleanworld.com/page/2/"><meta property="og:locale" cont
+0840: ent="en_US"><meta property="og:type" content="website"><meta pro
+0880: perty="og:title" content="Boolean World"><meta property="og:desc
+08c0: ription" content="Tech blog revolving around how-to guides, revi
+0900: ews, tutorials and all the latest trends."><meta property="og:ur
+0940: l" content="https://www.booleanworld.com/"><meta property="og:si
+0980: te_name" content="Boolean World"><meta name="twitter:card" conte
+09c0: nt="summary"><meta name="twitter:description" content="Tech blog
+0a00:  revolving around how-to guides, reviews, tutorials and all the 
+0a40: latest trends."><meta name="twitter:title" content="Boolean Worl
+0a80: d"><meta name="twitter:site" content="@booleanworld"><meta name=
+0ac0: "twitter:image" content="https://www.booleanworld.com/wp-content
+0b00: /uploads/2017/01/finalfav.png"><meta name="msvalidate.01" conten
+0b40: t="62E32FD6EE76291A96440D16E7E5D144"><link rel="amphtml" href="h
+0b80: ttps://www.booleanworld.com/amp/"><meta name="generator" content
+0bc0: ="AMP for WP 1.0.20"><link rel="dns-prefetch" href="//s.w.org"><
+0c00: link rel="alternate" type="application/rss+xml" title="Boolean W
+0c40: orld .. Feed" href="https://www.booleanworld.com/feed/"><link re
+0c80: l="alternate" type="application/rss+xml" title="Boolean World ..
+0cc0:  Comments Feed" href="https://www.booleanworld.com/comments/feed
+0d00: /"><link id="hu-user-gfont" href="//fonts.googleapis.com/css?fam
+0d40: ily=Source+Sans+Pro:400,300italic,300,400italic,600&amp;subset=l
+0d80: atin,latin-ext" rel="preload" type="text/css" as="style" onload=
+0dc0: "this.onload=null;this.rel=&#39;stylesheet&#39;">.<noscript><lin
+0e00: k id="hu-user-gfont" href="//fonts.googleapis.com/css?family=Sou
+0e40: rce+Sans+Pro:400,300italic,300,400italic,600&amp;subset=latin,la
+0e80: tin-ext" rel="stylesheet" type="text/css"></noscript>.<script ty
+0ec0: pe="text/javascript">window._wpemojiSettings = {"baseUrl":"https
+0f00: :\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".pn
+0f40: g","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/s
+0f80: vg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.boo
+0fc0: leanworld.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.
+1000: 2"}};....!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"
+1040: ),s=p.getContext&&p.getContext("2d");function c(e,t){var a=S
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4229 bytes (0x1085)
+0000: tring.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(
+0040: a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,
+0080: p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataUR
+00c0: L()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBasel
+0100: ine="top",s.font="600 32px Arial",e){case"flag":return!c([127987
+0140: ,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55
+0180: 356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([5535
+01c0: 6,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56
+0200: 423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,
+0240: 8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56
+0280: 447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,
+02c0: 56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,820
+0300: 3,55358,56605,8203,55357,56424,55356,57340])}return!1}function d
+0340: (e){var t=a.createElement("script");t.src=e,t.defer=t.type="text
+0380: /javascript",a.getElementsByTagName("head")[0].appendChild(t)}fo
+03c0: r(i=Array("flag","emoji"),t.supports={everything:!0,everythingEx
+0400: ceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.suppo
+0440: rts.everything=t.supports.everything&&t.supports[i[o]],"flag"!==
+0480: i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExce
+04c0: ptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supp
+0500: orts.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.read
+0540: yCallback=function(){t.DOMReady=!0},t.supports.everything||(n=fu
+0580: nction(){t.readyCallback()},a.addEventListener?(a.addEventListen
+05c0: er("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.
+0600: attachEvent("onload",n),a.attachEvent("onreadystatechange",funct
+0640: ion(){"complete"===a.readyState&&t.readyCallback()})),(r=t.sourc
+0680: e||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.t
+06c0: wemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings)
+0700: ;</script> <script type='text/javascript' src='https://www.boole
+0740: anworld.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></scr
+0780: ipt> <link rel="https://api.w.org/" href="https://www.booleanwor
+07c0: ld.com/wp-json/"><link rel="EditURI" type="application/rsd+xml" 
+0800: title="RSD" href="https://www.booleanworld.com/xmlrpc.php?rsd"><
+0840: link rel="wlwmanifest" type="application/wlwmanifest+xml" href="
+0880: https://www.booleanworld.com/wp-includes/wlwmanifest.xml"><meta 
+08c0: name="generator" content="WordPress 5.3.2"> <script>document.cre
+0900: ateElement( "picture" );if(!window.HTMLPictureElement && documen
+0940: t.addEventListener) {window.addEventListener("DOMContentLoaded",
+0980:  function() {var s = document.createElement("script");s.src = "h
+09c0: ttps://www.booleanworld.com/wp-content/plugins/webp-express/js/p
+0a00: icturefill.min.js";document.body.appendChild(s);});}</script><!-
+0a40: -[if lt IE 9]> <script src="https://www.booleanworld.com/wp-cont
+0a80: ent/themes/hueman/assets/front/js/ie/html5shiv-printshiv.min.js"
+0ac0: ></script> <script src="https://www.booleanworld.com/wp-content/
+0b00: themes/hueman/assets/front/js/ie/selectivizr.js"></script> <![en
+0b40: dif]--><meta name="onesignal" content="wordpress-plugin"> <scrip
+0b80: t>window.OneSignal = window.OneSignal || [];..      OneSignal.pu
+0bc0: sh( function() {.        OneSignal.SERVICE_WORKER_UPDATER_PATH =
+0c00:  "OneSignalSDKUpdaterWorker.js.php";.        OneSignal.SERVICE_W
+0c40: ORKER_PATH = "OneSignalSDKWorker.js.php";.        OneSignal.SERV
+0c80: ICE_WORKER_PARAM = { scope: '/' };..        OneSignal.setDefault
+0cc0: NotificationUrl("https://www.booleanworld.com");.        var one
+0d00: Signal_options = {};.        window._oneSignalInitOptions = oneS
+0d40: ignal_options;..        oneSignal_options['wordpress'] = true;.o
+0d80: neSignal_options['appId'] = '87b42101-24e2-4dd3-be00-2641c4c21cf
+0dc0: 9';.oneSignal_options['httpPermissionRequest'] = { };.oneSignal_
+0e00: options['httpPermissionRequest']['enable'] = true;.oneSignal_opt
+0e40: ions['welcomeNotification'] = { };.oneSignal_options['welcomeNot
+0e80: ification']['title'] = "";.oneSignal_options['welcomeNotificatio
+0ec0: n']['message'] = "";.oneSignal_options['path'] = "https://www.bo
+0f00: oleanworld.com/wp-content/plugins/onesignal-free-web-push-notifi
+0f40: cations/sdk_files/";.oneSignal_options['promptOptions'] = { };. 
+0f80:                OneSignal.init(window._oneSignalInitOptions);.   
+0fc0:              OneSignal.showSlidedownPrompt();      });..      fu
+1000: nction documentInitOneSignal() {.        var oneSignal_elements 
+1040: = document.getElementsByClassName("OneSignal-prompt");..        
+1080: var o
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 2303 bytes (0x8ff)
+0000: neSignalLinkClickHandler = function(event) { OneSignal.push(['re
+0040: gisterForPushNotifications']); event.preventDefault(); };       
+0080:  for(var i = 0; i < oneSignal_elements.length; i++).          on
+00c0: eSignal_elements[i].addEventListener('click', oneSignalLinkClick
+0100: Handler, false);.      }..      if (document.readyState === 'com
+0140: plete') {.           documentInitOneSignal();.      }.      else
+0180:  {.           window.addEventListener("load", function(event){. 
+01c0:               documentInitOneSignal();.          });.      }</sc
+0200: ript> <script type="text/javascript" data-cfasync="false">(funct
+0240: ion(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||funct
+0280: ion(){.  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date(
+02c0: );a=s.createElement(o),.  m=s.getElementsByTagName(o)[0];a.async
+0300: =1;a.src=g;m.parentNode.insertBefore(a,m).  })(window,document,'
+0340: script','https://www.google-analytics.com/analytics.js','ga');..
+0380:   ga('create', 'UA-86789702-3', 'auto');.  ga('send', 'pageview'
+03c0: );</script> <script src="//pagead2.googlesyndication.com/pagead/
+0400: js/adsbygoogle.js"></script> <link rel="icon" href="https://www.
+0440: booleanworld.com/wp-content/uploads/2017/01/finalfav-150x150.png
+0480: " sizes="32x32"><link rel="icon" href="https://www.booleanworld.
+04c0: com/wp-content/uploads/2017/01/finalfav-320x320.png" sizes="192x
+0500: 192"><link rel="apple-touch-icon-precomposed" href="https://www.
+0540: booleanworld.com/wp-content/uploads/2017/01/finalfav-320x320.png
+0580: "><meta name="msapplication-TileImage" content="https://www.bool
+05c0: eanworld.com/wp-content/uploads/2017/01/finalfav-320x320.png"><s
+0600: tyle>.ezoic-ad.box-1 { display:block !important;float:none !impo
+0640: rtant;margin-bottom:10px !important;margin-left:0px !important;m
+0680: argin-right:0px !important;margin-top:10px !important;min-height
+06c0: :600px;min-width:160px;text-align:center !important; }..ezoic-ad
+0700: .large-leaderboard-1 { display:inline-block;float:none;margin-bo
+0740: ttom:0px !important;margin-left:0px !important;margin-right:0px 
+0780: !important;margin-top:0px !important;min-height:270px;min-width:
+07c0: 300px; }..ezoic-ad.banner-2 { display:block !important;float:non
+0800: e !important;margin-bottom:0px !important;margin-left:0px !impor
+0840: tant;margin-right:0px !important;margin-top:0px !important;min-h
+0880: eight:270px;min-width:300px;text-align:center !important; }..ezo
+08c0: ic-ad{display:inline-block;}..adtester-container-109{display:no
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4220 bytes (0x107c)
+0000: ne !important}..adtester-container-106{display:none !important}.
+0040: .adtester-container-117{display:none !important}..adtester-conta
+0080: iner-108{display:none !important}..adtester-container-105{displa
+00c0: y:none !important}..adtester-container-107{display:none !importa
+0100: nt}..adtester-container-104{display:none !important}..adtester-c
+0140: ontainer-112{display:none !important}..adtester-container-101{di
+0180: splay:none !important}..adtester-container-111{display:none !imp
+01c0: ortant}..adtester-container-110{display:none !important}..adtest
+0200: er-container-102{display:none !important}..ezoic-floating-bottom
+0240:  { display: none!important; }</style>.<script data-ezscrex="fals
+0280: e" data-cfasync="false" type="text/javascript">window.google_ana
+02c0: lytics_uacct = "UA-111500137-4";</script>.<script data-ezscrex="
+0300: false" data-cfasync="false" type="text/javascript">.var _gaq = _
+0340: gaq || [];._gaq.push(['e._setAccount', 'UA-111500137-4']);._gaq.
+0380: push(['f._setAccount', 'UA-38339005-1']);._gaq.push(['e._setDoma
+03c0: inName', 'booleanworld.com']);._gaq.push(['f._setDomainName', 'b
+0400: ooleanworld.com']);._gaq.push(['e._setCustomVar',1,'template','p
+0440: ub_site',3]);._gaq.push(['e._setCustomVar',2,'t','134',3]);._gaq
+0480: .push(['e._setCustomVar',3,'rid','0',2]);._gaq.push(['e._setCust
+04c0: omVar',4,'bra','mod7-c',3]);._gaq.push(['e._setAllowAnchor',true
+0500: ]);._gaq.push(['e._setSiteSpeedSampleRate', 10]);._gaq.push(['f.
+0540: _setCustomVar',1,'template','pub_site',3]);._gaq.push(['f._setCu
+0580: stomVar',2,'domain','booleanworld.com',3]);._gaq.push(['f._setSi
+05c0: teSpeedSampleRate', 20]);._gaq.push(['e._trackPageview']);._gaq.
+0600: push(['f._trackPageview']);...(function() {. var ga = document.c
+0640: reateElement('script'); ga.type = 'text/javascript'; ga.async = 
+0680: true;. ga.src = ('https:' == document.location.protocol ? 'https
+06c0: ://ssl' : 'http://www') + '.google-analytics.com/ga.js';. var s 
+0700: = document.getElementsByTagName('script')[0]; s.parentNode.inser
+0740: tBefore(ga, s);.})();.</script>.<script type="text/javascript">v
+0780: ar ezouid = "1";</script><base href="https://www.booleanworld.co
+07c0: m/"><script type='text/javascript'>.var ezoTemplate = 'pub_site'
+0800: ;.if(typeof ezouid == 'undefined').{.    var ezouid = 'none';.}.
+0840: var ezoFormfactor = '1';.var ezo_elements_to_check = Array();.</
+0880: script>.<script data-ezscrex="false" type='text/javascript'>.var
+08c0:  soc_app_id = '0';.var did = 95829;.var ezdomain = 'booleanworld
+0900: .com';.var ezoicSearchable = 1;.</script>...<script data-ezscrex
+0940: ='false' data-pagespeed-no-defer data-cfasync='false' type='text
+0980: /javascript' style='display:none'>.__ez.queue.addFile('__ezf_ezo
+09c0: suigeneris', '//g.ezoic.net/ezosuigeneris.js', true, [], true, f
+0a00: alse, false, false);.var __ez_ezosuigenerisEvt = function() { if
+0a40: (typeof(ezosuigeneris) != 'undefined'){__ez.bit.AddAndFire(_ezaq
+0a80: ['page_view_id'], [(new __ezDotData('universal_user_id', ezosuig
+0ac0: eneris))]); }};.__ez.queue.addFunc('__ez_ezosuigenerisEvt', '__e
+0b00: z_ezosuigenerisEvt', null, false, ['__ezf_ezosuigeneris'], false
+0b40: , false, false, false);</script><script data-ezscrex='false' dat
+0b80: a-pagespeed-no-defer data-cfasync='false' type='text/javascript'
+0bc0:  style='display:none'>__ez.queue.addFile('__ezf_ezosuigenerisc',
+0c00:  '//g.ezoic.net/ezosuigenerisc.js?nogen=1', true, [], true, fals
+0c40: e, false, false);</script>.<script async src="//pagead2.googlesy
+0c80: ndication.com/pagead/js/adsbygoogle.js" type="text/javascript"><
+0cc0: /script>.<script type="text/javascript">.(function(){..var div =
+0d00:  document.createElement('div');..div.id = 'dmo1';..div.style = '
+0d40: display:none';..var s = document.createElement('script');..var c
+0d80: ode = `var googleAdClient = "ca-pub-6396844742497208";....  wind
+0dc0: ow.google_ad_client = googleAdClient;....  /* dmo */....  window
+0e00: .google_ad_slot = "dmo";....  window.google_ad_width = 88;....  
+0e40: window.google_ad_height = 31;....  (adsbygoogle = window.adsbygo
+0e80: ogle || []).push({.....  google_ad_client: googleAdClient,..... 
+0ec0:  enable_page_level_ads: false....  });`;..var ss = document.crea
+0f00: teElement('script');..ss.src = '//pagead2.googlesyndication.com/
+0f40: pagead/show_ads.js';..ss.type = 'text/javascript';..ss.async = f
+0f80: alse;..try {...s.appendChild(document.createTextNode(code));..} 
+0fc0: catch (e) {...s.text = code;..}..div.appendChild(s);..div.append
+1000: Child(ss);..if (document.readyState == 'interactive' || document
+1040: .readyState == 'complete') {...document.body.appendChild(div
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4220 bytes (0x107c)
+0000: );..} else {...document.addEventListener("DOMContentLoaded", fun
+0040: ction(event) {....document.body.appendChild(div);...});..}.}());
+0080: .</script>.<script data-ezscrex='false' data-pagespeed-no-defer 
+00c0: data-cfasync='false'>.function create_ezolpl() {.    var d = new
+0100:  Date();.    d.setTime(d.getTime() + (365*24*60*60*1000));.    v
+0140: ar expires = "expires="+d.toUTCString();.    __ez.ck.setByCat("e
+0180: zux_lpl_95829=" + new Date().getTime() + "|f5787745-0125-40af-49
+01c0: 10-9c4d911e1ae1; " + expires, 3);.}.function attach_ezolpl() {. 
+0200:    if(window.attachEvent) {.        window.attachEvent('onload',
+0240:  create_ezolpl);.    } else {.        if(window.onload) {.      
+0280:       var curronload = window.onload;.            var newonload 
+02c0: = function(evt) {.                curronload(evt);.             
+0300:    create_ezolpl();.            };.            window.onload = n
+0340: ewonload;.        } else {.            window.onload = create_ez
+0380: olpl;.        }.    }.}.attach_ezolpl();.</script></head><body c
+03c0: lass="home blog wp-custom-logo wp-embed-responsive col-2cl full-
+0400: width topbar-enabled header-desktop-sticky chrome">.<div id="wra
+0440: pper"> <a class="screen-reader-text skip-link" href="#content">S
+0480: kip to content</a><header id="header" class="both-menus-mobile-o
+04c0: n two-mobile-menus both_menus header-ads-desktop  topbar-transpa
+0500: rent no-header-img"><nav class="nav-container group desktop-menu
+0540:  desktop-sticky " id="nav-topbar" data-menu-id="header-1"> <butt
+0580: on class="ham__navbar-toggler-two collapsed" title="Menu" aria-e
+05c0: xpanded="false"><div class="ham__navbar-span-wrapper"> <span cla
+0600: ss="line line-1"></span> <span class="line line-2"></span> <span
+0640:  class="line line-3"></span></div> </button><div class="nav-text
+0680: "></div><div class="topbar-toggle-down"> <i class="fas fa-angle-
+06c0: double-down" aria-hidden="true" data-toggle="down" title="Expand
+0700:  menu"></i> <i class="fas fa-angle-double-up" aria-hidden="true"
+0740:  data-toggle="up" title="Collapse menu"></i></div><div class="na
+0780: v-wrap container"><ul id="menu-header-menu" class="nav container
+07c0: -inner group"><li id="menu-item-39" class="menu-item menu-item-t
+0800: ype-custom menu-item-object-custom current-menu-item current_pag
+0840: e_item menu-item-39"><a href="/" aria-current="page">Home</a></l
+0880: i><li id="menu-item-554" class="menu-item menu-item-type-custom 
+08c0: menu-item-object-custom menu-item-554"><a href="https://dnsteste
+0900: r.net/">DNS Tester</a></li><li id="menu-item-227" class="menu-it
+0940: em menu-item-type-post_type menu-item-object-page menu-item-227"
+0980: ><a href="https://www.booleanworld.com/contact-us/">Contact Us</
+09c0: a></li></ul></div><div id="topbar-header-search" class="containe
+0a00: r"><div class="container-inner"> <button class="toggle-search"><
+0a40: i class="fas fa-search"></i></button><div class="search-expand">
+0a80: <div class="search-expand-inner"><form method="get" class="searc
+0ac0: hform themeform" action="https://www.booleanworld.com/"><div> <i
+0b00: nput type="text" class="search" name="s" onblur="if(this.value==
+0b40: '')this.value='To search type and hit enter';" onfocus="if(this.
+0b80: value=='To search type and hit enter')this.value='';" value="To 
+0bc0: search type and hit enter"></div></form></div></div></div></div>
+0c00: </nav><div class="container group"><div class="container-inner">
+0c40: <div class="group pad central-header-zone"><div class="logo-tagl
+0c80: ine-group"><p class="site-title"><a class="custom-logo-link" hre
+0cc0: f="https://www.booleanworld.com/" rel="home" title="Boolean Worl
+0d00: d | Home page">Boolean World</a></p><p class="site-description">
+0d40: </p></div></div></div></div></header><div class="container" id="
+0d80: page"><div class="container-inner"><div class="main"><div class=
+0dc0: "main-inner group"><section class="content" id="content"><div cl
+0e00: ass="page-title pad group"></div>.<span id="ezoic-pub-ad-placeho
+0e40: lder-101"></span>.<div class="pad group"><div class="featured"><
+0e80: article id="post-2061" class="group post-2061 post type-post sta
+0ec0: tus-publish format-standard has-post-thumbnail hentry category-u
+0f00: ncategorized tag-c-language tag-programming"><div class="post-in
+0f40: ner post-hover"><div class="post-thumbnail featured-img-thumb-xl
+0f80: arge"> <a href="https://www.booleanworld.com/arrays-in-c/"> <pic
+0fc0: ture><source srcset="https://www.booleanworld.com/wp-content/web
+1000: p-express/webp-images/doc-root/wp-content/uploads/2019/11/c-arra
+1040: ys-cover.png.webp 800w, https://www.booleanworld.com/wp-cont
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4229 bytes (0x1085)
+0000: ent/webp-express/webp-images/doc-root/wp-content/uploads/2019/11
+0040: /c-arrays-cover-300x131.png.webp 300w, https://www.booleanworld.
+0080: com/wp-content/webp-express/webp-images/doc-root/wp-content/uplo
+00c0: ads/2019/11/c-arrays-cover-300x131@2x.png.webp 600w" sizes="(max
+0100: -width: 800px) 100vw, 800px" type="image/webp"><img width="800" 
+0140: height="350" src="https://www.booleanworld.com/wp-content/upload
+0180: s/2019/11/c-arrays-cover.png" class="attachment-thumb-xlarge siz
+01c0: e-thumb-xlarge wp-post-image webpexpress-processed" alt="" srcse
+0200: t="https://www.booleanworld.com/wp-content/uploads/2019/11/c-arr
+0240: ays-cover.png 800w, https://www.booleanworld.com/wp-content/uplo
+0280: ads/2019/11/c-arrays-cover-300x131.png 300w, https://www.boolean
+02c0: world.com/wp-content/uploads/2019/11/c-arrays-cover-300x131@2x.p
+0300: ng 600w" sizes="(max-width: 800px) 100vw, 800px"></picture> </a>
+0340: </div><div class="post-meta group"></div><h2 class="post-title e
+0380: ntry-title"> <a href="https://www.booleanworld.com/arrays-in-c/"
+03c0:  rel="bookmark" title="Permalink to Arrays in C Programming with
+0400:  Examples">Arrays in C Programming with Examples</a></h2><div cl
+0440: ass="entry excerpt entry-summary"><p>Arrays in C allow you to st
+0480: ore multiple items of the same data type, such as a list of inte
+04c0: gers. Arrays form the basis for many data structures and allow y
+0500: ou to build advanced...</p></div></div></article></div><div id="
+0540: grid-wrapper" class="post-list group"><div class="post-row"><art
+0580: icle id="post-2061" class="group grid-item post-2061 post type-p
+05c0: ost status-publish format-standard has-post-thumbnail hentry cat
+0600: egory-uncategorized tag-c-language tag-programming"><div class="
+0640: post-inner post-hover"><div class="post-thumbnail"> <a href="htt
+0680: ps://www.booleanworld.com/arrays-in-c/"> <picture><source srcset
+06c0: ="https://www.booleanworld.com/wp-content/webp-express/webp-imag
+0700: es/doc-root/wp-content/uploads/2019/11/c-arrays-cover-520x245.pn
+0740: g.webp 520w, https://www.booleanworld.com/wp-content/webp-expres
+0780: s/webp-images/doc-root/wp-content/uploads/2019/11/c-arrays-cover
+07c0: -720x340.png.webp 720w" sizes="(max-width: 520px) 100vw, 520px" 
+0800: type="image/webp"><img width="520" height="245" src="https://www
+0840: .booleanworld.com/wp-content/uploads/2019/11/c-arrays-cover-520x
+0880: 245.png" class="attachment-thumb-medium size-thumb-medium wp-pos
+08c0: t-image webpexpress-processed" alt="" srcset="https://www.boolea
+0900: nworld.com/wp-content/uploads/2019/11/c-arrays-cover-520x245.png
+0940:  520w, https://www.booleanworld.com/wp-content/uploads/2019/11/c
+0980: -arrays-cover-720x340.png 720w" sizes="(max-width: 520px) 100vw,
+09c0:  520px"></picture> </a></div><div class="post-meta group"></div>
+0a00: <h2 class="post-title entry-title"> <a href="https://www.boolean
+0a40: world.com/arrays-in-c/" rel="bookmark" title="Permalink to Array
+0a80: s in C Programming with Examples">Arrays in C Programming with E
+0ac0: xamples</a></h2><div class="entry excerpt entry-summary"><p>Arra
+0b00: ys in C allow you to store multiple items of the same data type,
+0b40:  such as a list of integers. Arrays form the basis for many data
+0b80:  structures and allow you to build advanced...</p></div></div></
+0bc0: article><article id="post-1889" class="group grid-item post-1889
+0c00:  post type-post status-publish format-standard has-post-thumbnai
+0c40: l hentry category-uncategorized tag-command-line tag-linux tag-l
+0c80: inux-basics"><div class="post-inner post-hover"><div class="post
+0cc0: -thumbnail"> <a href="https://www.booleanworld.com/how-to-add-re
+0d00: move-and-modify-users-in-linux/"> <picture><source srcset="https
+0d40: ://www.booleanworld.com/wp-content/webp-express/webp-images/doc-
+0d80: root/wp-content/uploads/2019/11/linux-users-cover-photo-520x245.
+0dc0: png.webp 520w, https://www.booleanworld.com/wp-content/webp-expr
+0e00: ess/webp-images/doc-root/wp-content/uploads/2019/11/linux-users-
+0e40: cover-photo-720x340.png.webp 720w, https://www.booleanworld.com/
+0e80: wp-content/webp-express/webp-images/doc-root/wp-content/uploads/
+0ec0: 2019/11/linux-users-cover-photo-520x245@2x.png.webp 1040w" sizes
+0f00: ="(max-width: 520px) 100vw, 520px" type="image/webp"><img width=
+0f40: "520" height="245" src="https://www.booleanworld.com/wp-content/
+0f80: uploads/2019/11/linux-users-cover-photo-520x245.png" class="atta
+0fc0: chment-thumb-medium size-thumb-medium wp-post-image webpexpress-
+1000: processed" alt="linux users cover photo" srcset="https://www.boo
+1040: leanworld.com/wp-content/uploads/2019/11/linux-users-cover-photo
+1080: -520x
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4220 bytes (0x107c)
+0000: 245.png 520w, https://www.booleanworld.com/wp-content/uploads/20
+0040: 19/11/linux-users-cover-photo-720x340.png 720w, https://www.bool
+0080: eanworld.com/wp-content/uploads/2019/11/linux-users-cover-photo-
+00c0: 520x245@2x.png 1040w" sizes="(max-width: 520px) 100vw, 520px"></
+0100: picture> </a></div><div class="post-meta group"></div><h2 class=
+0140: "post-title entry-title"> <a href="https://www.booleanworld.com/
+0180: how-to-add-remove-and-modify-users-in-linux/" rel="bookmark" tit
+01c0: le="Permalink to How to Add, Remove and Modify Users in Linux">H
+0200: ow to Add, Remove and Modify Users in Linux</a></h2><div class="
+0240: entry excerpt entry-summary"><p>As a Linux administrator, it is 
+0280: essential to know how to add users, modify users and delete user
+02c0: s in a Linux system. It is a good practice to have different acc
+0300: ounts for different users...</p></div></div></article></div><div
+0340:  class="post-row"><article id="post-1925" class="group grid-item
+0380:  post-1925 post type-post status-publish format-standard has-pos
+03c0: t-thumbnail hentry category-uncategorized tag-programming tag-py
+0400: thon"><div class="post-inner post-hover"><div class="post-thumbn
+0440: ail"> <a href="https://www.booleanworld.com/building-recursive-d
+0480: escent-parsers-definitive-guide/"> <picture><source srcset="http
+04c0: s://www.booleanworld.com/wp-content/webp-express/webp-images/doc
+0500: -root/wp-content/uploads/2019/10/rdp-cover-520x245.png.webp 520w
+0540: , https://www.booleanworld.com/wp-content/webp-express/webp-imag
+0580: es/doc-root/wp-content/uploads/2019/10/rdp-cover-720x340.png.web
+05c0: p 720w" sizes="(max-width: 520px) 100vw, 520px" type="image/webp
+0600: "><img width="520" height="245" src="https://www.booleanworld.co
+0640: m/wp-content/uploads/2019/10/rdp-cover-520x245.png" class="attac
+0680: hment-thumb-medium size-thumb-medium wp-post-image webpexpress-p
+06c0: rocessed" alt="Recursive Descent Parser cover image" srcset="htt
+0700: ps://www.booleanworld.com/wp-content/uploads/2019/10/rdp-cover-5
+0740: 20x245.png 520w, https://www.booleanworld.com/wp-content/uploads
+0780: /2019/10/rdp-cover-720x340.png 720w" sizes="(max-width: 520px) 1
+07c0: 00vw, 520px"></picture> </a></div><div class="post-meta group"><
+0800: /div><h2 class="post-title entry-title"> <a href="https://www.bo
+0840: oleanworld.com/building-recursive-descent-parsers-definitive-gui
+0880: de/" rel="bookmark" title="Permalink to Building Recursive Desce
+08c0: nt Parsers: The Definitive Guide">Building Recursive Descent Par
+0900: sers: The Definitive Guide</a></h2><div class="entry excerpt ent
+0940: ry-summary"><p>Parsers are programs that help process text. Comp
+0980: ilers and interpreters use parsers to analyze programs before pr
+09c0: ocessing them further, and parsers for formats like JSON and YAM
+0a00: L process text into the programming language...s native...</p></
+0a40: div></div></article><article id="post-1843" class="group grid-it
+0a80: em post-1843 post type-post status-publish format-standard has-p
+0ac0: ost-thumbnail hentry category-uncategorized tag-security tag-ssh
+0b00: "><div class="post-inner post-hover"><div class="post-thumbnail"
+0b40: > <a href="https://www.booleanworld.com/set-ssh-keys-linux-unix-
+0b80: server/"> <picture><source srcset="https://www.booleanworld.com/
+0bc0: wp-content/webp-express/webp-images/doc-root/wp-content/uploads/
+0c00: 2019/01/ssh-keys-cover-image-520x245.jpg.webp 520w, https://www.
+0c40: booleanworld.com/wp-content/webp-express/webp-images/doc-root/wp
+0c80: -content/uploads/2019/01/ssh-keys-cover-image-720x340.jpg.webp 7
+0cc0: 20w, https://www.booleanworld.com/wp-content/webp-express/webp-i
+0d00: mages/doc-root/wp-content/uploads/2019/01/ssh-keys-cover-image-5
+0d40: 20x245@2x.jpg.webp 1040w, https://www.booleanworld.com/wp-conten
+0d80: t/webp-express/webp-images/doc-root/wp-content/uploads/2019/01/s
+0dc0: sh-keys-cover-image-720x340@2x.jpg.webp 1440w" sizes="(max-width
+0e00: : 520px) 100vw, 520px" type="image/webp"><img width="520" height
+0e40: ="245" src="https://www.booleanworld.com/wp-content/uploads/2019
+0e80: /01/ssh-keys-cover-image-520x245.jpg" class="attachment-thumb-me
+0ec0: dium size-thumb-medium wp-post-image webpexpress-processed" alt=
+0f00: "ssh keys cover image" srcset="https://www.booleanworld.com/wp-c
+0f40: ontent/uploads/2019/01/ssh-keys-cover-image-520x245.jpg 520w, ht
+0f80: tps://www.booleanworld.com/wp-content/uploads/2019/01/ssh-keys-c
+0fc0: over-image-720x340.jpg 720w, https://www.booleanworld.com/wp-con
+1000: tent/uploads/2019/01/ssh-keys-cover-image-520x245@2x.jpg 1040w, 
+1040: https://www.booleanworld.com/wp-content/uploads/2019/01/ssh-
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4229 bytes (0x1085)
+0000: keys-cover-image-720x340@2x.jpg 1440w" sizes="(max-width: 520px)
+0040:  100vw, 520px"></picture> </a></div><div class="post-meta group"
+0080: ></div><h2 class="post-title entry-title"> <a href="https://www.
+00c0: booleanworld.com/set-ssh-keys-linux-unix-server/" rel="bookmark"
+0100:  title="Permalink to How to Set up SSH Keys on a Linux/Unix Serv
+0140: er">How to Set up SSH Keys on a Linux/Unix Server</a></h2><div c
+0180: lass="entry excerpt entry-summary"><p>SSH (Secure SHell) is a ne
+01c0: twork protocol that allows you to securely execute commands on a
+0200: nd transfer files to a remote server. Typically, most servers ru
+0240: nning SSH are configured to use password-based authentication; h
+0280: owever,...</p></div></div></article></div><div class="post-row">
+02c0: <article id="post-1786" class="group grid-item post-1786 post ty
+0300: pe-post status-publish format-standard has-post-thumbnail hentry
+0340:  category-uncategorized tag-bash tag-command-line tag-curl tag-l
+0380: inux tag-linux-basics"><div class="post-inner post-hover"><div c
+03c0: lass="post-thumbnail"> <a href="https://www.booleanworld.com/cur
+0400: l-command-tutorial-examples/"> <picture><source srcset="https://
+0440: www.booleanworld.com/wp-content/webp-express/webp-images/doc-roo
+0480: t/wp-content/uploads/2018/12/curl-cover-picture-520x245.png.webp
+04c0:  520w, https://www.booleanworld.com/wp-content/webp-express/webp
+0500: -images/doc-root/wp-content/uploads/2018/12/curl-cover-picture-7
+0540: 20x340.png.webp 720w, https://www.booleanworld.com/wp-content/we
+0580: bp-express/webp-images/doc-root/wp-content/uploads/2018/12/curl-
+05c0: cover-picture-520x245@2x.png.webp 1040w, https://www.booleanworl
+0600: d.com/wp-content/webp-express/webp-images/doc-root/wp-content/up
+0640: loads/2018/12/curl-cover-picture-720x340@2x.png.webp 1440w" size
+0680: s="(max-width: 520px) 100vw, 520px" type="image/webp"><img width
+06c0: ="520" height="245" src="https://www.booleanworld.com/wp-content
+0700: /uploads/2018/12/curl-cover-picture-520x245.png" class="attachme
+0740: nt-thumb-medium size-thumb-medium wp-post-image webpexpress-proc
+0780: essed" alt="curl cover picture" srcset="https://www.booleanworld
+07c0: .com/wp-content/uploads/2018/12/curl-cover-picture-520x245.png 5
+0800: 20w, https://www.booleanworld.com/wp-content/uploads/2018/12/cur
+0840: l-cover-picture-720x340.png 720w, https://www.booleanworld.com/w
+0880: p-content/uploads/2018/12/curl-cover-picture-520x245@2x.png 1040
+08c0: w, https://www.booleanworld.com/wp-content/uploads/2018/12/curl-
+0900: cover-picture-720x340@2x.png 1440w" sizes="(max-width: 520px) 10
+0940: 0vw, 520px"></picture> </a></div><div class="post-meta group"></
+0980: div><h2 class="post-title entry-title"> <a href="https://www.boo
+09c0: leanworld.com/curl-command-tutorial-examples/" rel="bookmark" ti
+0a00: tle="Permalink to cURL Command Tutorial with Examples">cURL Comm
+0a40: and Tutorial with Examples</a></h2><div class="entry excerpt ent
+0a80: ry-summary"><p>cURL is a command line tool and a library which c
+0ac0: an be used to receive and send data between a client and a serve
+0b00: r or any two machines connected over the internet. It supports..
+0b40: .</p></div></div></article><article id="post-1719" class="group 
+0b80: grid-item post-1719 post type-post status-publish format-standar
+0bc0: d has-post-thumbnail hentry category-uncategorized tag-container
+0c00: ization tag-kvm tag-openvz tag-virtualization tag-xen"><div clas
+0c40: s="post-inner post-hover"><div class="post-thumbnail"> <a href="
+0c80: https://www.booleanworld.com/openvz-vs-kvm-vs-xen-virtualization
+0cc0: -technologies-explained/"> <picture><source srcset="https://www.
+0d00: booleanworld.com/wp-content/webp-express/webp-images/doc-root/wp
+0d40: -content/uploads/2018/08/cover-photo-520x245.jpg.webp 520w, http
+0d80: s://www.booleanworld.com/wp-content/webp-express/webp-images/doc
+0dc0: -root/wp-content/uploads/2018/08/cover-photo-720x340.jpg.webp 72
+0e00: 0w, https://www.booleanworld.com/wp-content/webp-express/webp-im
+0e40: ages/doc-root/wp-content/uploads/2018/08/cover-photo-520x245@2x.
+0e80: jpg.webp 1040w, https://www.booleanworld.com/wp-content/webp-exp
+0ec0: ress/webp-images/doc-root/wp-content/uploads/2018/08/cover-photo
+0f00: -720x340@2x.jpg.webp 1440w" sizes="(max-width: 520px) 100vw, 520
+0f40: px" type="image/webp"><img width="520" height="245" src="https:/
+0f80: /www.booleanworld.com/wp-content/uploads/2018/08/cover-photo-520
+0fc0: x245.jpg" class="attachment-thumb-medium size-thumb-medium wp-po
+1000: st-image webpexpress-processed" alt="cover image" srcset="https:
+1040: //www.booleanworld.com/wp-content/uploads/2018/08/cover-photo-52
+1080: 0x245
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4220 bytes (0x107c)
+0000: .jpg 520w, https://www.booleanworld.com/wp-content/uploads/2018/
+0040: 08/cover-photo-720x340.jpg 720w, https://www.booleanworld.com/wp
+0080: -content/uploads/2018/08/cover-photo-520x245@2x.jpg 1040w, https
+00c0: ://www.booleanworld.com/wp-content/uploads/2018/08/cover-photo-7
+0100: 20x340@2x.jpg 1440w" sizes="(max-width: 520px) 100vw, 520px"></p
+0140: icture> </a></div><div class="post-meta group"></div><h2 class="
+0180: post-title entry-title"> <a href="https://www.booleanworld.com/o
+01c0: penvz-vs-kvm-vs-xen-virtualization-technologies-explained/" rel=
+0200: "bookmark" title="Permalink to OpenVZ vs KVM vs Xen ... Virtuali
+0240: zation Technologies Explained">OpenVZ vs KVM vs Xen ... Virtuali
+0280: zation Technologies Explained</a></h2><div class="entry excerpt 
+02c0: entry-summary"><p>There are many different virtualization techno
+0300: logies available in the market, such as OpenVZ, KVM and Xen. You
+0340:  may have come across these terms when trying to while trying to
+0380:  buy a Virtual Private Server...</p></div></div></article></div>
+03c0: <div class="post-row"><article id="post-1652" class="group grid-
+0400: item post-1652 post type-post status-publish format-standard has
+0440: -post-thumbnail hentry category-uncategorized tag-command-line t
+0480: ag-linux-basics"><div class="post-inner post-hover"><div class="
+04c0: post-thumbnail"> <a href="https://www.booleanworld.com/download-
+0500: files-web-pages-wget/"> <picture><source srcset="https://www.boo
+0540: leanworld.com/wp-content/webp-express/webp-images/doc-root/wp-co
+0580: ntent/uploads/2018/06/wget-cover-520x245.png.webp 520w, https://
+05c0: www.booleanworld.com/wp-content/webp-express/webp-images/doc-roo
+0600: t/wp-content/uploads/2018/06/wget-cover-720x340.png.webp 720w, h
+0640: ttps://www.booleanworld.com/wp-content/webp-express/webp-images/
+0680: doc-root/wp-content/uploads/2018/06/wget-cover-520x245@2x.png.we
+06c0: bp 1040w" sizes="(max-width: 520px) 100vw, 520px" type="image/we
+0700: bp"><img width="520" height="245" src="https://www.booleanworld.
+0740: com/wp-content/uploads/2018/06/wget-cover-520x245.png" class="at
+0780: tachment-thumb-medium size-thumb-medium wp-post-image webpexpres
+07c0: s-processed" alt="wget cover image" srcset="https://www.booleanw
+0800: orld.com/wp-content/uploads/2018/06/wget-cover-520x245.png 520w,
+0840:  https://www.booleanworld.com/wp-content/uploads/2018/06/wget-co
+0880: ver-720x340.png 720w, https://www.booleanworld.com/wp-content/up
+08c0: loads/2018/06/wget-cover-520x245@2x.png 1040w" sizes="(max-width
+0900: : 520px) 100vw, 520px"></picture> </a></div><div class="post-met
+0940: a group"></div><h2 class="post-title entry-title"> <a href="http
+0980: s://www.booleanworld.com/download-files-web-pages-wget/" rel="bo
+09c0: okmark" title="Permalink to How to Download Files and Web Pages 
+0a00: with Wget">How to Download Files and Web Pages with Wget</a></h2
+0a40: ><div class="entry excerpt entry-summary"><p>The wget command al
+0a80: lows you to download files over the HTTP, HTTPS and FTP protocol
+0ac0: s. It is a powerful tool that allows you to download files in th
+0b00: e background, crawl websites, and resume interrupted...</p></div
+0b40: ></div></article><article id="post-1537" class="group grid-item 
+0b80: post-1537 post type-post status-publish format-standard has-post
+0bc0: -thumbnail hentry category-uncategorized tag-command-line tag-li
+0c00: nux"><div class="post-inner post-hover"><div class="post-thumbna
+0c40: il"> <a href="https://www.booleanworld.com/kill-process-linux/">
+0c80:  <picture><source srcset="https://www.booleanworld.com/wp-conten
+0cc0: t/webp-express/webp-images/doc-root/wp-content/uploads/2018/05/l
+0d00: inux-kill-cover-image-520x245.jpg.webp 520w, https://www.boolean
+0d40: world.com/wp-content/webp-express/webp-images/doc-root/wp-conten
+0d80: t/uploads/2018/05/linux-kill-cover-image-720x340.jpg.webp 720w, 
+0dc0: https://www.booleanworld.com/wp-content/webp-express/webp-images
+0e00: /doc-root/wp-content/uploads/2018/05/linux-kill-cover-image-520x
+0e40: 245@2x.jpg.webp 1040w, https://www.booleanworld.com/wp-content/w
+0e80: ebp-express/webp-images/doc-root/wp-content/uploads/2018/05/linu
+0ec0: x-kill-cover-image-720x340@2x.jpg.webp 1440w" sizes="(max-width:
+0f00:  520px) 100vw, 520px" type="image/webp"><img width="520" height=
+0f40: "245" src="https://www.booleanworld.com/wp-content/uploads/2018/
+0f80: 05/linux-kill-cover-image-520x245.jpg" class="attachment-thumb-m
+0fc0: edium size-thumb-medium wp-post-image webpexpress-processed" alt
+1000: ="linux kill cover image" srcset="https://www.booleanworld.com/w
+1040: p-content/uploads/2018/05/linux-kill-cover-image-520x245.jpg
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4229 bytes (0x1085)
+0000:  520w, https://www.booleanworld.com/wp-content/uploads/2018/05/l
+0040: inux-kill-cover-image-720x340.jpg 720w, https://www.booleanworld
+0080: .com/wp-content/uploads/2018/05/linux-kill-cover-image-520x245@2
+00c0: x.jpg 1040w, https://www.booleanworld.com/wp-content/uploads/201
+0100: 8/05/linux-kill-cover-image-720x340@2x.jpg 1440w" sizes="(max-wi
+0140: dth: 520px) 100vw, 520px"></picture> </a></div><div class="post-
+0180: meta group"></div><h2 class="post-title entry-title"> <a href="h
+01c0: ttps://www.booleanworld.com/kill-process-linux/" rel="bookmark" 
+0200: title="Permalink to How to Kill a Process in Linux">How to Kill 
+0240: a Process in Linux</a></h2><div class="entry excerpt entry-summa
+0280: ry"><p>In an operating system, there are many programs, which ma
+02c0: y be either run by an user or by the OS itself (such as system s
+0300: ervices). Such programs which are running on the system are...</
+0340: p></div></div></article></div><div class="post-row"><article id=
+0380: "post-1541" class="group grid-item post-1541 post type-post stat
+03c0: us-publish format-standard has-post-thumbnail hentry category-un
+0400: categorized tag-command-line tag-linux tag-linux-basics"><div cl
+0440: ass="post-inner post-hover"><div class="post-thumbnail"> <a href
+0480: ="https://www.booleanworld.com/guide-linux-find-command/"> <pict
+04c0: ure><source srcset="https://www.booleanworld.com/wp-content/webp
+0500: -express/webp-images/doc-root/wp-content/uploads/2018/05/scrap-2
+0540: 049626_640-520x245.jpg.webp 520w, https://www.booleanworld.com/w
+0580: p-content/webp-express/webp-images/doc-root/wp-content/uploads/2
+05c0: 018/05/scrap-2049626_640-720x340.jpg.webp 720w" sizes="(max-widt
+0600: h: 520px) 100vw, 520px" type="image/webp"><img width="520" heigh
+0640: t="245" src="https://www.booleanworld.com/wp-content/uploads/201
+0680: 8/05/scrap-2049626_640-520x245.jpg" class="attachment-thumb-medi
+06c0: um size-thumb-medium wp-post-image webpexpress-processed" alt=""
+0700:  srcset="https://www.booleanworld.com/wp-content/uploads/2018/05
+0740: /scrap-2049626_640-520x245.jpg 520w, https://www.booleanworld.co
+0780: m/wp-content/uploads/2018/05/scrap-2049626_640-720x340.jpg 720w"
+07c0:  sizes="(max-width: 520px) 100vw, 520px"></picture> </a></div><d
+0800: iv class="post-meta group"></div><h2 class="post-title entry-tit
+0840: le"> <a href="https://www.booleanworld.com/guide-linux-find-comm
+0880: and/" rel="bookmark" title="Permalink to A Guide to the Linux ..
+08c0: .Find... Command">A Guide to the Linux ...Find... Command</a></h
+0900: 2><div class="entry excerpt entry-summary"><p>The find command a
+0940: llows users to search for files and take actions on them. It is 
+0980: part of the ...findutils... package and comes bundled with all d
+09c0: istributions.&nbsp; It is highly flexible, allowing you to...</p
+0a00: ></div></div></article><article id="post-1472" class="group grid
+0a40: -item post-1472 post type-post status-publish format-standard ha
+0a80: s-post-thumbnail hentry category-uncategorized tag-command-line 
+0ac0: tag-linux tag-linux-basics"><div class="post-inner post-hover"><
+0b00: div class="post-thumbnail"> <a href="https://www.booleanworld.co
+0b40: m/introduction-linux-file-permissions/"> <picture><source srcset
+0b80: ="https://www.booleanworld.com/wp-content/webp-express/webp-imag
+0bc0: es/doc-root/wp-content/uploads/2018/04/pexels-photo-207580-520x2
+0c00: 45.jpeg.webp 520w, https://www.booleanworld.com/wp-content/webp-
+0c40: express/webp-images/doc-root/wp-content/uploads/2018/04/pexels-p
+0c80: hoto-207580-720x340.jpeg.webp 720w" sizes="(max-width: 520px) 10
+0cc0: 0vw, 520px" type="image/webp"><img width="520" height="245" src=
+0d00: "https://www.booleanworld.com/wp-content/uploads/2018/04/pexels-
+0d40: photo-207580-520x245.jpeg" class="attachment-thumb-medium size-t
+0d80: humb-medium wp-post-image webpexpress-processed" alt="" srcset="
+0dc0: https://www.booleanworld.com/wp-content/uploads/2018/04/pexels-p
+0e00: hoto-207580-520x245.jpeg 520w, https://www.booleanworld.com/wp-c
+0e40: ontent/uploads/2018/04/pexels-photo-207580-720x340.jpeg 720w" si
+0e80: zes="(max-width: 520px) 100vw, 520px"></picture> </a></div><div 
+0ec0: class="post-meta group"></div><h2 class="post-title entry-title"
+0f00: > <a href="https://www.booleanworld.com/introduction-linux-file-
+0f40: permissions/" rel="bookmark" title="Permalink to An Introduction
+0f80:  to Linux File Permissions">An Introduction to Linux File Permis
+0fc0: sions</a></h2><div class="entry excerpt entry-summary"><p>Linux 
+1000: is a multi-user operating system, and it ensures the security of
+1040:  files with the concepts of ...ownership... and ...permissions..
+1080: .. Yo
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 3201 bytes (0xc81)
+0000: u can use these concepts to control who can access and modify fi
+0040: les. In...</p></div></div></article></div><div class="post-row">
+0080: <article id="post-1420" class="group grid-item post-1420 post ty
+00c0: pe-post status-publish format-standard has-post-thumbnail hentry
+0100:  category-uncategorized tag-command-line tag-linux tag-monitorin
+0140: g"><div class="post-inner post-hover"><div class="post-thumbnail
+0180: "> <a href="https://www.booleanworld.com/install-use-glances-mon
+01c0: itor-linux-systems/"> <picture><source srcset="https://www.boole
+0200: anworld.com/wp-content/webp-express/webp-images/doc-root/wp-cont
+0240: ent/uploads/2018/03/glances-cover-520x245.png.webp 520w, https:/
+0280: /www.booleanworld.com/wp-content/webp-express/webp-images/doc-ro
+02c0: ot/wp-content/uploads/2018/03/glances-cover-720x340.png.webp 720
+0300: w" sizes="(max-width: 520px) 100vw, 520px" type="image/webp"><im
+0340: g width="520" height="245" src="https://www.booleanworld.com/wp-
+0380: content/uploads/2018/03/glances-cover-520x245.png" class="attach
+03c0: ment-thumb-medium size-thumb-medium wp-post-image webpexpress-pr
+0400: ocessed" alt="glances cover picture" srcset="https://www.boolean
+0440: world.com/wp-content/uploads/2018/03/glances-cover-520x245.png 5
+0480: 20w, https://www.booleanworld.com/wp-content/uploads/2018/03/gla
+04c0: nces-cover-720x340.png 720w" sizes="(max-width: 520px) 100vw, 52
+0500: 0px"></picture> </a></div><div class="post-meta group"></div><h2
+0540:  class="post-title entry-title"> <a href="https://www.booleanwor
+0580: ld.com/install-use-glances-monitor-linux-systems/" rel="bookmark
+05c0: " title="Permalink to How to Install and Use Glances to Monitor 
+0600: Linux Systems">How to Install and Use Glances to Monitor Linux S
+0640: ystems</a></h2><div class="entry excerpt entry-summary"><p>Monit
+0680: oring a system is essential for keeping things running smoothly.
+06c0:  Glances is a Python-based tool which provides information on va
+0700: rious aspects of the system, such as running processes, I/O, mem
+0740: ory and so on. It...</p></div></div></article><article id="post-
+0780: 1354" class="group grid-item post-1354 post type-post status-pub
+07c0: lish format-standard has-post-thumbnail hentry category-uncatego
+0800: rized tag-linux tag-monitoring"><div class="post-inner post-hove
+0840: r"><div class="post-thumbnail"> <a href="https://www.booleanworl
+0880: d.com/guide-monitoring-servers-nagios/"> <picture><source srcset
+08c0: ="https://www.booleanworld.com/wp-content/webp-express/webp-imag
+0900: es/doc-root/wp-content/uploads/2018/03/NagiosLogo-520x245.png.we
+0940: bp 520w, https://www.booleanworld.com/wp-content/webp-express/we
+0980: bp-images/doc-root/wp-content/uploads/2018/03/NagiosLogo-720x340
+09c0: .png.webp 720w" sizes="(max-width: 520px) 100vw, 520px" type="im
+0a00: age/webp"><img width="520" height="245" src="https://www.boolean
+0a40: world.com/wp-content/uploads/2018/03/NagiosLogo-520x245.png" cla
+0a80: ss="attachment-thumb-medium size-thumb-medium wp-post-image webp
+0ac0: express-processed" alt="" srcset="https://www.booleanworld.com/w
+0b00: p-content/uploads/2018/03/NagiosLogo-520x245.png 520w, https://w
+0b40: ww.booleanworld.com/wp-content/uploads/2018/03/NagiosLogo-720x34
+0b80: 0.png 720w" sizes="(max-width: 520px) 100vw, 520px"></picture> <
+0bc0: /a></div><div class="post-meta group"></div><h2 class="post-titl
+0c00: e entry-title"> <a href="https://www.booleanworld.com/guide-moni
+0c40: toring-servers-nagios/" rel="bookmark" title="Permalink to A Gui
+0c80: d
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4220 bytes (0x107c)
+0000: e to Monitoring Servers with Nagios">A Guide to Monitoring Serve
+0040: rs with Nagios</a></h2><div class="entry excerpt entry-summary">
+0080: <p>Monitoring is an essential part of managing infrastructure. I
+00c0: t helps you to ensure that your business keeps running smoothly,
+0100:  by alerting you to problems as they occur. Nagios is a very pop
+0140: ular open-source application...</p></div></div></article></div><
+0180: div class="post-row"><article id="post-1312" class="group grid-i
+01c0: tem post-1312 post type-post status-publish format-standard has-
+0200: post-thumbnail hentry category-uncategorized tag-raid tag-storag
+0240: e"><div class="post-inner post-hover"><div class="post-thumbnail
+0280: "> <a href="https://www.booleanworld.com/raid-levels-explained/"
+02c0: > <picture><source srcset="https://www.booleanworld.com/wp-conte
+0300: nt/webp-express/webp-images/doc-root/wp-content/uploads/2018/02/
+0340: raid-cover-520x245.jpg.webp 520w, https://www.booleanworld.com/w
+0380: p-content/webp-express/webp-images/doc-root/wp-content/uploads/2
+03c0: 018/02/raid-cover-720x340.jpg.webp 720w, https://www.booleanworl
+0400: d.com/wp-content/webp-express/webp-images/doc-root/wp-content/up
+0440: loads/2018/02/raid-cover-520x245@2x.jpg.webp 1040w, https://www.
+0480: booleanworld.com/wp-content/webp-express/webp-images/doc-root/wp
+04c0: -content/uploads/2018/02/raid-cover-720x340@2x.jpg.webp 1440w" s
+0500: izes="(max-width: 520px) 100vw, 520px" type="image/webp"><img wi
+0540: dth="520" height="245" src="https://www.booleanworld.com/wp-cont
+0580: ent/uploads/2018/02/raid-cover-520x245.jpg" class="attachment-th
+05c0: umb-medium size-thumb-medium wp-post-image webpexpress-processed
+0600: " alt="raid cover image" srcset="https://www.booleanworld.com/wp
+0640: -content/uploads/2018/02/raid-cover-520x245.jpg 520w, https://ww
+0680: w.booleanworld.com/wp-content/uploads/2018/02/raid-cover-720x340
+06c0: .jpg 720w, https://www.booleanworld.com/wp-content/uploads/2018/
+0700: 02/raid-cover-520x245@2x.jpg 1040w, https://www.booleanworld.com
+0740: /wp-content/uploads/2018/02/raid-cover-720x340@2x.jpg 1440w" siz
+0780: es="(max-width: 520px) 100vw, 520px"></picture> </a></div><div c
+07c0: lass="post-meta group"></div><h2 class="post-title entry-title">
+0800:  <a href="https://www.booleanworld.com/raid-levels-explained/" r
+0840: el="bookmark" title="Permalink to RAID levels 0, 1, 4, 5, 6, 10 
+0880: explained">RAID levels 0, 1, 4, 5, 6, 10 explained</a></h2><div 
+08c0: class="entry excerpt entry-summary"><p>As businesses grow, deman
+0900: d arises for more reliable infrastructure that can handle critic
+0940: al systems. An important component in stable and scalable infras
+0980: tructure is proper memory management. In this article, we will l
+09c0: ook at RAID...</p></div></div></article><article id="post-1252" 
+0a00: class="group grid-item post-1252 post type-post status-publish f
+0a40: ormat-standard has-post-thumbnail hentry category-uncategorized 
+0a80: tag-linux tag-monitoring"><div class="post-inner post-hover"><di
+0ac0: v class="post-thumbnail"> <a href="https://www.booleanworld.com/
+0b00: install-use-prometheus-monitoring/"> <picture><source srcset="ht
+0b40: tps://www.booleanworld.com/wp-content/webp-express/webp-images/d
+0b80: oc-root/wp-content/uploads/2018/02/prometheus-cover-final-520x24
+0bc0: 5.png.webp 520w, https://www.booleanworld.com/wp-content/webp-ex
+0c00: press/webp-images/doc-root/wp-content/uploads/2018/02/prometheus
+0c40: -cover-final-720x340.png.webp 720w" sizes="(max-width: 520px) 10
+0c80: 0vw, 520px" type="image/webp"><img width="520" height="245" src=
+0cc0: "https://www.booleanworld.com/wp-content/uploads/2018/02/prometh
+0d00: eus-cover-final-520x245.png" class="attachment-thumb-medium size
+0d40: -thumb-medium wp-post-image webpexpress-processed" alt="Promethe
+0d80: us cover image" srcset="https://www.booleanworld.com/wp-content/
+0dc0: uploads/2018/02/prometheus-cover-final-520x245.png 520w, https:/
+0e00: /www.booleanworld.com/wp-content/uploads/2018/02/prometheus-cove
+0e40: r-final-720x340.png 720w" sizes="(max-width: 520px) 100vw, 520px
+0e80: "></picture> </a></div><div class="post-meta group"></div><h2 cl
+0ec0: ass="post-title entry-title"> <a href="https://www.booleanworld.
+0f00: com/install-use-prometheus-monitoring/" rel="bookmark" title="Pe
+0f40: rmalink to How to Install and Use Prometheus for Monitoring">How
+0f80:  to Install and Use Prometheus for Monitoring</a></h2><div class
+0fc0: ="entry excerpt entry-summary"><p>&nbsp; Monitoring is an import
+1000: ant part of managing applications deployed on servers. They help
+1040:  you ensure applications run smoothly, as well as troublesho
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4220 bytes (0x107c)
+0000: ot any problems that may arise. In this article, we will look...
+0040: </p></div></div></article></div><div class="post-row"><article i
+0080: d="post-1199" class="group grid-item post-1199 post type-post st
+00c0: atus-publish format-standard has-post-thumbnail hentry category-
+0100: uncategorized tag-linux tag-monitoring tag-networking"><div clas
+0140: s="post-inner post-hover"><div class="post-thumbnail"> <a href="
+0180: https://www.booleanworld.com/monitor-network-traffic-linux-using
+01c0: -vnstat/"> <picture><source srcset="https://www.booleanworld.com
+0200: /wp-content/webp-express/webp-images/doc-root/wp-content/uploads
+0240: /2017/12/cover-vnstat-520x245.jpg.webp 520w, https://www.boolean
+0280: world.com/wp-content/webp-express/webp-images/doc-root/wp-conten
+02c0: t/uploads/2017/12/cover-vnstat-720x340.jpg.webp 720w, https://ww
+0300: w.booleanworld.com/wp-content/webp-express/webp-images/doc-root/
+0340: wp-content/uploads/2017/12/cover-vnstat-520x245@2x.jpg.webp 1040
+0380: w, https://www.booleanworld.com/wp-content/webp-express/webp-ima
+03c0: ges/doc-root/wp-content/uploads/2017/12/cover-vnstat-720x340@2x.
+0400: jpg.webp 1440w" sizes="(max-width: 520px) 100vw, 520px" type="im
+0440: age/webp"><img width="520" height="245" src="https://www.boolean
+0480: world.com/wp-content/uploads/2017/12/cover-vnstat-520x245.jpg" c
+04c0: lass="attachment-thumb-medium size-thumb-medium wp-post-image we
+0500: bpexpress-processed" alt="vnstat cover" srcset="https://www.bool
+0540: eanworld.com/wp-content/uploads/2017/12/cover-vnstat-520x245.jpg
+0580:  520w, https://www.booleanworld.com/wp-content/uploads/2017/12/c
+05c0: over-vnstat-720x340.jpg 720w, https://www.booleanworld.com/wp-co
+0600: ntent/uploads/2017/12/cover-vnstat-520x245@2x.jpg 1040w, https:/
+0640: /www.booleanworld.com/wp-content/uploads/2017/12/cover-vnstat-72
+0680: 0x340@2x.jpg 1440w" sizes="(max-width: 520px) 100vw, 520px"></pi
+06c0: cture> </a></div><div class="post-meta group"></div><h2 class="p
+0700: ost-title entry-title"> <a href="https://www.booleanworld.com/mo
+0740: nitor-network-traffic-linux-using-vnstat/" rel="bookmark" title=
+0780: "Permalink to How to Monitor Network Traffic on Linux Using vnSt
+07c0: at">How to Monitor Network Traffic on Linux Using vnStat</a></h2
+0800: ><div class="entry excerpt entry-summary"><p>Developers and sysa
+0840: dmins may need to monitor various network parameters, such as ba
+0880: ndwidth consumption and the traffic flowing in/out. There are ma
+08c0: ny tools available for this purpose, one of them being vnStat. I
+0900: t is...</p></div></div></article><article id="post-1168" class="
+0940: group grid-item post-1168 post type-post status-publish format-s
+0980: tandard has-post-thumbnail hentry category-uncategorized tag-ngi
+09c0: nx tag-website-security"><div class="post-inner post-hover"><div
+0a00:  class="post-thumbnail"> <a href="https://www.booleanworld.com/s
+0a40: et-basic-http-authentication-nginx/"> <picture><source srcset="h
+0a80: ttps://www.booleanworld.com/wp-content/webp-express/webp-images/
+0ac0: doc-root/wp-content/uploads/2017/10/basicauthcover-520x245.png.w
+0b00: ebp 520w, https://www.booleanworld.com/wp-content/webp-express/w
+0b40: ebp-images/doc-root/wp-content/uploads/2017/10/basicauthcover-72
+0b80: 0x340.png.webp 720w" sizes="(max-width: 520px) 100vw, 520px" typ
+0bc0: e="image/webp"><img width="520" height="245" src="https://www.bo
+0c00: oleanworld.com/wp-content/uploads/2017/10/basicauthcover-520x245
+0c40: .png" class="attachment-thumb-medium size-thumb-medium wp-post-i
+0c80: mage webpexpress-processed" alt="" srcset="https://www.booleanwo
+0cc0: rld.com/wp-content/uploads/2017/10/basicauthcover-520x245.png 52
+0d00: 0w, https://www.booleanworld.com/wp-content/uploads/2017/10/basi
+0d40: cauthcover-720x340.png 720w" sizes="(max-width: 520px) 100vw, 52
+0d80: 0px"></picture> </a></div><div class="post-meta group"></div><h2
+0dc0:  class="post-title entry-title"> <a href="https://www.booleanwor
+0e00: ld.com/set-basic-http-authentication-nginx/" rel="bookmark" titl
+0e40: e="Permalink to How to Set up Basic HTTP Authentication on nginx
+0e80: ">How to Set up Basic HTTP Authentication on nginx</a></h2><div 
+0ec0: class="entry excerpt entry-summary"><p>Files placed on a web ser
+0f00: ver are publicly accessible by default. If you want to protect f
+0f40: iles from unauthorized access, you can make use of HTTP basic au
+0f80: thentication. It is a simple authentication method,...</p></div>
+0fc0: </div></article></div><div class="post-row"><article id="post-11
+1000: 40" class="group grid-item post-1140 post type-post status-publi
+1040: sh format-standard has-post-thumbnail hentry category-uncate
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4229 bytes (0x1085)
+0000: gorized tag-flatpak tag-linux tag-package-management"><div class
+0040: ="post-inner post-hover"><div class="post-thumbnail"> <a href="h
+0080: ttps://www.booleanworld.com/building-cross-distribution-linux-ap
+00c0: plications-flatpak/"> <picture><source srcset="https://www.boole
+0100: anworld.com/wp-content/webp-express/webp-images/doc-root/wp-cont
+0140: ent/uploads/2017/09/flatpak-cover-520x245.png.webp 520w, https:/
+0180: /www.booleanworld.com/wp-content/webp-express/webp-images/doc-ro
+01c0: ot/wp-content/uploads/2017/09/flatpak-cover-720x340.png.webp 720
+0200: w" sizes="(max-width: 520px) 100vw, 520px" type="image/webp"><im
+0240: g width="520" height="245" src="https://www.booleanworld.com/wp-
+0280: content/uploads/2017/09/flatpak-cover-520x245.png" class="attach
+02c0: ment-thumb-medium size-thumb-medium wp-post-image webpexpress-pr
+0300: ocessed" alt="" srcset="https://www.booleanworld.com/wp-content/
+0340: uploads/2017/09/flatpak-cover-520x245.png 520w, https://www.bool
+0380: eanworld.com/wp-content/uploads/2017/09/flatpak-cover-720x340.pn
+03c0: g 720w" sizes="(max-width: 520px) 100vw, 520px"></picture> </a><
+0400: /div><div class="post-meta group"></div><h2 class="post-title en
+0440: try-title"> <a href="https://www.booleanworld.com/building-cross
+0480: -distribution-linux-applications-flatpak/" rel="bookmark" title=
+04c0: "Permalink to Building Cross-Distribution Linux Applications wit
+0500: h Flatpak">Building Cross-Distribution Linux Applications with F
+0540: latpak</a></h2><div class="entry excerpt entry-summary"><p>Fragm
+0580: entation has been a problem for quite some time in the Linux eco
+05c0: system. A variety of distributions exist today, with their own p
+0600: ackage managers and their own notions of what a ...base system..
+0640: . consists...</p></div></div></article><article id="post-1121" c
+0680: lass="group grid-item post-1121 post type-post status-publish fo
+06c0: rmat-standard has-post-thumbnail hentry category-uncategorized t
+0700: ag-containerization tag-docker tag-virtualization"><div class="p
+0740: ost-inner post-hover"><div class="post-thumbnail"> <a href="http
+0780: s://www.booleanworld.com/getting-started-docker-part-2/"> <pictu
+07c0: re><source srcset="https://www.booleanworld.com/wp-content/webp-
+0800: express/webp-images/doc-root/wp-content/uploads/2017/09/docker-2
+0840: -cover-520x245.jpg.webp 520w, https://www.booleanworld.com/wp-co
+0880: ntent/webp-express/webp-images/doc-root/wp-content/uploads/2017/
+08c0: 09/docker-2-cover-720x340.jpg.webp 720w, https://www.booleanworl
+0900: d.com/wp-content/webp-express/webp-images/doc-root/wp-content/up
+0940: loads/2017/09/docker-2-cover-520x245@2x.jpg.webp 1040w, https://
+0980: www.booleanworld.com/wp-content/webp-express/webp-images/doc-roo
+09c0: t/wp-content/uploads/2017/09/docker-2-cover-720x340@2x.jpg.webp 
+0a00: 1440w" sizes="(max-width: 520px) 100vw, 520px" type="image/webp"
+0a40: ><img width="520" height="245" src="https://www.booleanworld.com
+0a80: /wp-content/uploads/2017/09/docker-2-cover-520x245.jpg" class="a
+0ac0: ttachment-thumb-medium size-thumb-medium wp-post-image webpexpre
+0b00: ss-processed" alt="docker cover photo" srcset="https://www.boole
+0b40: anworld.com/wp-content/uploads/2017/09/docker-2-cover-520x245.jp
+0b80: g 520w, https://www.booleanworld.com/wp-content/uploads/2017/09/
+0bc0: docker-2-cover-720x340.jpg 720w, https://www.booleanworld.com/wp
+0c00: -content/uploads/2017/09/docker-2-cover-520x245@2x.jpg 1040w, ht
+0c40: tps://www.booleanworld.com/wp-content/uploads/2017/09/docker-2-c
+0c80: over-720x340@2x.jpg 1440w" sizes="(max-width: 520px) 100vw, 520p
+0cc0: x"></picture> </a></div><div class="post-meta group"></div><h2 c
+0d00: lass="post-title entry-title"> <a href="https://www.booleanworld
+0d40: .com/getting-started-docker-part-2/" rel="bookmark" title="Perma
+0d80: link to Getting Started with Docker ... Part 2">Getting Started 
+0dc0: with Docker ... Part 2</a></h2><div class="entry excerpt entry-s
+0e00: ummary"><p>Docker has changed the way developers run, organize a
+0e40: nd deploy their code and infrastructure. In the docker series ar
+0e80: ticles, we will be understanding how Docker works, installation 
+0ec0: and running&nbsp;code, deployment, container management and more
+0f00: ....</p></div></div></article></div><div class="post-row"><artic
+0f40: le id="post-1081" class="group grid-item post-1081 post type-pos
+0f80: t status-publish format-standard has-post-thumbnail hentry categ
+0fc0: ory-uncategorized tag-command-line tag-linux"><div class="post-i
+1000: nner post-hover"><div class="post-thumbnail"> <a href="https://w
+1040: ww.booleanworld.com/guide-linux-top-command/"> <picture><source 
+1080: srcse
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4220 bytes (0x107c)
+0000: t="https://www.booleanworld.com/wp-content/webp-express/webp-ima
+0040: ges/doc-root/wp-content/uploads/2017/09/penguin-56101_1280-520x2
+0080: 45.jpg.webp 520w, https://www.booleanworld.com/wp-content/webp-e
+00c0: xpress/webp-images/doc-root/wp-content/uploads/2017/09/penguin-5
+0100: 6101_1280-720x340.jpg.webp 720w, https://www.booleanworld.com/wp
+0140: -content/webp-express/webp-images/doc-root/wp-content/uploads/20
+0180: 17/09/penguin-56101_1280-520x245@2x.jpg.webp 1040w" sizes="(max-
+01c0: width: 520px) 100vw, 520px" type="image/webp"><img width="520" h
+0200: eight="245" src="https://www.booleanworld.com/wp-content/uploads
+0240: /2017/09/penguin-56101_1280-520x245.jpg" class="attachment-thumb
+0280: -medium size-thumb-medium wp-post-image webpexpress-processed" a
+02c0: lt="" srcset="https://www.booleanworld.com/wp-content/uploads/20
+0300: 17/09/penguin-56101_1280-520x245.jpg 520w, https://www.booleanwo
+0340: rld.com/wp-content/uploads/2017/09/penguin-56101_1280-720x340.jp
+0380: g 720w, https://www.booleanworld.com/wp-content/uploads/2017/09/
+03c0: penguin-56101_1280-520x245@2x.jpg 1040w" sizes="(max-width: 520p
+0400: x) 100vw, 520px"></picture> </a></div><div class="post-meta grou
+0440: p"></div><h2 class="post-title entry-title"> <a href="https://ww
+0480: w.booleanworld.com/guide-linux-top-command/" rel="bookmark" titl
+04c0: e="Permalink to A Guide to the Linux ...Top... Command">A Guide 
+0500: to the Linux ...Top... Command</a></h2><div class="entry excerpt
+0540:  entry-summary"><p>The top command allows users to monitor proce
+0580: sses and system resource usage on Linux. It is one of the most u
+05c0: seful tools in a sysadmin...s toolbox, and it comes pre-installe
+0600: d on every distribution. Unlike...</p></div></div></article><art
+0640: icle id="post-1034" class="group grid-item post-1034 post type-p
+0680: ost status-publish format-standard has-post-thumbnail hentry cat
+06c0: egory-uncategorized tag-high-availability tag-load-balancing tag
+0700: -nginx"><div class="post-inner post-hover"><div class="post-thum
+0740: bnail"> <a href="https://www.booleanworld.com/configure-nginx-lo
+0780: ad-balancer/"> <picture><source srcset="https://www.booleanworld
+07c0: .com/wp-content/webp-express/webp-images/doc-root/wp-content/upl
+0800: oads/2017/08/horizontal-1823350_640-520x245.png.webp 520w, https
+0840: ://www.booleanworld.com/wp-content/webp-express/webp-images/doc-
+0880: root/wp-content/uploads/2017/08/horizontal-1823350_640-720x340.p
+08c0: ng.webp 720w" sizes="(max-width: 520px) 100vw, 520px" type="imag
+0900: e/webp"><img width="520" height="245" src="https://www.booleanwo
+0940: rld.com/wp-content/uploads/2017/08/horizontal-1823350_640-520x24
+0980: 5.png" class="attachment-thumb-medium size-thumb-medium wp-post-
+09c0: image webpexpress-processed" alt="" srcset="https://www.booleanw
+0a00: orld.com/wp-content/uploads/2017/08/horizontal-1823350_640-520x2
+0a40: 45.png 520w, https://www.booleanworld.com/wp-content/uploads/201
+0a80: 7/08/horizontal-1823350_640-720x340.png 720w" sizes="(max-width:
+0ac0:  520px) 100vw, 520px"></picture> </a></div><div class="post-meta
+0b00:  group"></div><h2 class="post-title entry-title"> <a href="https
+0b40: ://www.booleanworld.com/configure-nginx-load-balancer/" rel="boo
+0b80: kmark" title="Permalink to How to Configure nginx as a Load Bala
+0bc0: ncer">How to Configure nginx as a Load Balancer</a></h2><div cla
+0c00: ss="entry excerpt entry-summary"><p>For very small websites, a s
+0c40: ingle server running a web application is usually enough. Howeve
+0c80: r, this doesn...t work well for larger websites. In such cases, 
+0cc0: we make use of ...load balancing..., a technique that...</p></di
+0d00: v></div></article></div></div><nav class="pagination group"><ul 
+0d40: class="group"><li class="prev left"></li><li class="next right">
+0d80: <a href="https://www.booleanworld.com/page/2/">Next Page ..</a><
+0dc0: /li></ul></nav></div></section><div class="sidebar s1 collapsed"
+0e00:  data-position="right" data-layout="col-2cl" data-sb-id="s1"> <b
+0e40: utton class="sidebar-toggle" title="Expand Sidebar"><i class="fa
+0e80: s icon-sidebar-toggle"></i></button><div class="sidebar-content"
+0ec0: ><div class="sidebar-top group"><p>Follow:</p><ul class="social-
+0f00: links"><li><a rel="nofollow" class="social-tooltip" title="Follo
+0f40: w us on Facebook" aria-label="Follow us on Facebook" href="https
+0f80: ://www.facebook.com/booleanworld" target="_blank" style="color:r
+0fc0: gba(255,255,255,0.7)"><i class="fab fa-facebook"></i></a></li><l
+1000: i><a rel="nofollow" class="social-tooltip" title="Follow us on T
+1040: witter" aria-label="Follow us on Twitter" href="https://twit
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4229 bytes (0x1085)
+0000: ter.com/BooleanWorld" target="_blank" style="color:rgba(255,255,
+0040: 255,0.7)"><i class="fab fa-twitter"></i></a></li><li><a rel="nof
+0080: ollow" class="social-tooltip" title="Read our RSS feed" aria-lab
+00c0: el="Read our RSS feed" href="https://www.booleanworld.com/feed" 
+0100: target="_blank" style="color:rgba(255,255,255,0.7)"><i class="fa
+0140: s fa-rss"></i></a></li></ul></div><div id="text-2" class="widget
+0180:  widget_text"><div class="textwidget"><p></p><span id="ezoic-pub
+01c0: -ad-placeholder-103"></span><span style='display:block !importan
+0200: t;float:none !important;margin-bottom:10px !important;margin-lef
+0240: t:0px !important;margin-right:0px !important;margin-top:10px !im
+0280: portant;min-height:600px;min-width:160px;text-align:center !impo
+02c0: rtant;' class='ezoic-ad box-1 adtester-container adtester-contai
+0300: ner-103' data-ez-name='booleanworld_com-box-1'><span id='div-gpt
+0340: -ad-booleanworld_com-box-1-0' ezaw='160' ezah='600' style='posit
+0380: ion:relative;z-index:0;display:inline-block;min-height:600px;min
+03c0: -width:160px;' class='ezoic-ad'><script data-ezscrex='false' dat
+0400: a-cfasync='false' type='text/javascript' style='display:none;'>e
+0440: val(ez_write_tag([[160,600],'booleanworld_com-box-1','ezslot_2',
+0480: 103,'0','0']));</script></span><span style='width:160px;display:
+04c0: block;height:14px;margin:auto' class='reportline'><span style='t
+0500: ext-align:center;font-size: smaller;float:left;line-height:norma
+0540: l;'><a href='https://www.ezoic.com/what-is-ezoic/' target='_blan
+0580: k' rel='noopener noreferrer nofollow' style='cursor:pointer' /><
+05c0: img src='https://go.ezoic.net/utilcave_com/img/ezoic.png' style=
+0600: 'height:12px !important; padding:2px !important; border:0px !imp
+0640: ortant; cursor:pointer !important; width: 58px !important; margi
+0680: n:0 !important; box-sizing: content-box !important;' /></a></spa
+06c0: n><span class="ez-report-ad-button" name="?pageview_id=f5787745-
+0700: 0125-40af-4910-9c4d911e1ae1&ad_position_id=103&impression_group_
+0740: id=booleanworld_com-box-1/2020-02-08/259300&ad_size=160x600&doma
+0780: in_id=95829&url=https://www.booleanworld.com/" style='cursor: po
+07c0: inter!important; font-size:12px !important;color: #a5a5a5 ;float
+0800: :right;text-decoration:none !important;font-family:arial !import
+0840: ant;line-height:normal;'>report this ad</span></span></span><p><
+0880: /p></div></div><div id="recent-posts-2" class="widget widget_rec
+08c0: ent_entries"><h3 class="widget-title">Recent Posts</h3><ul><li> 
+0900: <a href="https://www.booleanworld.com/arrays-in-c/">Arrays in C 
+0940: Programming with Examples</a></li><li> <a href="https://www.bool
+0980: eanworld.com/how-to-add-remove-and-modify-users-in-linux/">How t
+09c0: o Add, Remove and Modify Users in Linux</a></li><li> <a href="ht
+0a00: tps://www.booleanworld.com/building-recursive-descent-parsers-de
+0a40: finitive-guide/">Building Recursive Descent Parsers: The Definit
+0a80: ive Guide</a></li><li> <a href="https://www.booleanworld.com/set
+0ac0: -ssh-keys-linux-unix-server/">How to Set up SSH Keys on a Linux/
+0b00: Unix Server</a></li><li> <a href="https://www.booleanworld.com/c
+0b40: url-command-tutorial-examples/">cURL Command Tutorial with Examp
+0b80: les</a></li></ul></div><div id="text-3" class="widget widget_tex
+0bc0: t"><div class="textwidget"><p></p><span id="ezoic-pub-ad-placeho
+0c00: lder-104"></span><p></p></div><span id="ezoic-pub-ad-placeholder
+0c40: -116" class="ezoic-adpicker-ad"></span><span style='display:inli
+0c80: ne-block;float:none;margin-bottom:0px !important;margin-left:0px
+0cc0:  !important;margin-right:0px !important;margin-top:0px !importan
+0d00: t;min-height:270px;min-width:300px;' class='ezoic-ad large-leade
+0d40: rboard-1 adtester-container adtester-container-116' data-ez-name
+0d80: ='booleanworld_com-large-leaderboard-1'><span id='div-gpt-ad-boo
+0dc0: leanworld_com-large-leaderboard-1-0' ezaw='300' ezah='250' style
+0e00: ='position:relative;z-index:0;display:inline-block;min-height:25
+0e40: 0px;min-width:300px;' class='ezoic-ad'><script data-ezscrex='fal
+0e80: se' data-cfasync='false' type='text/javascript' style='display:n
+0ec0: one;'>eval(ez_write_tag([[300,250],'booleanworld_com-large-leade
+0f00: rboard-1','ezslot_0',116,'0','0']));</script></span></span></div
+0f40: ></div><span id="ezoic-pub-ad-placeholder-118" class="ezoic-adpi
+0f80: cker-ad"></span><span style='display:block !important;float:none
+0fc0:  !important;margin-bottom:0px !important;margin-left:0px !import
+1000: ant;margin-right:0px !important;margin-top:0px !important;min-he
+1040: ight:270px;min-width:300px;text-align:center !important;' class=
+1080: 'ezoi
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4220 bytes (0x107c)
+0000: c-ad banner-2 adtester-container adtester-container-118' data-ez
+0040: -name='booleanworld_com-banner-2'><span id='div-gpt-ad-booleanwo
+0080: rld_com-banner-2-0' ezaw='300' ezah='250' style='position:relati
+00c0: ve;z-index:0;display:inline-block;min-height:250px;min-width:300
+0100: px;' class='ezoic-ad'><script data-ezscrex='false' data-cfasync=
+0140: 'false' type='text/javascript' style='display:none;'>eval(ez_wri
+0180: te_tag([[300,250],'booleanworld_com-banner-2','ezslot_1',118,'0'
+01c0: ,'0']));</script></span></span></div></div></div></div></div><sp
+0200: an id="ezoic-pub-ad-placeholder-110" class="ezoic-adpicker-ad"><
+0240: /span><footer id="footer"><section class="container" id="footer-
+0280: bottom"><div class="container-inner"> <a id="back-to-top" href="
+02c0: #"><i class="fas fa-angle-up"></i></a><div class="pad group"><di
+0300: v class="grid one-half"><div id="copyright"><p><a href="/legal/#
+0340: privacy">Privacy Policy</a> | <a href="/legal/#tos">Terms of Ser
+0380: vice</a> | Copyright .. 2020 booleanworld.com. All rights reserv
+03c0: ed.</p></div></div><div class="grid one-half last"><ul class="so
+0400: cial-links"><li><a rel="nofollow" class="social-tooltip" title="
+0440: Follow us on Facebook" aria-label="Follow us on Facebook" href="
+0480: https://www.facebook.com/booleanworld" target="_blank" style="co
+04c0: lor:rgba(255,255,255,0.7)"><i class="fab fa-facebook"></i></a></
+0500: li><li><a rel="nofollow" class="social-tooltip" title="Follow us
+0540:  on Twitter" aria-label="Follow us on Twitter" href="https://twi
+0580: tter.com/BooleanWorld" target="_blank" style="color:rgba(255,255
+05c0: ,255,0.7)"><i class="fab fa-twitter"></i></a></li><li><a rel="no
+0600: follow" class="social-tooltip" title="Read our RSS feed" aria-la
+0640: bel="Read our RSS feed" href="https://www.booleanworld.com/feed"
+0680:  target="_blank" style="color:rgba(255,255,255,0.7)"><i class="f
+06c0: as fa-rss"></i></a></li></ul></div></div></div></section></foote
+0700: r></div> <script type='text/javascript'>var HUParams = {"_disabl
+0740: ed":[],"SmoothScroll":{"Enabled":false,"Options":{"touchpadSuppo
+0780: rt":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","e
+07c0: xtLinksStyle":"","extLinksTargetExt":"","extLinksSkipSelectors":
+0800: {"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":"","
+0840: imgSmartLoadOpts":{"parentSelectors":[".container .content",".co
+0880: ntainer .sidebar","#footer","#header-widgets"],"opts":{"excludeI
+08c0: mg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.6
+0900: 18","gridGoldenRatioLimit":"350","sbStickyUserSettings":{"deskto
+0940: p":false,"mobile":false},"isWPMobile":"","menuStickyUserSettings
+0980: ":{"desktop":"stick_up","mobile":"stick_up"},"mobileSubmenuExpan
+09c0: dOnClick":"","submenuTogglerIcon":"<i class=\"fas fa-angle-down\
+0a00: "><\/i>","isDevMode":"","ajaxUrl":"https:\/\/www.booleanworld.co
+0a40: m\/?huajax=1","frontNonce":{"id":"HuFrontNonce","handle":"6201c1
+0a80: f1ee"},"isWelcomeNoteOn":"","welcomeContent":"","i18n":{"collaps
+0ac0: ibleExpand":"Expand","collapsibleCollapse":"Collapse"}};</script
+0b00: > <script type='text/javascript' src='https://cdn.onesignal.com/
+0b40: sdks/OneSignalSDK.js?ver=5.3.2' async='async'></script> <!--[if 
+0b80: lt IE 9]> <script src="https://www.booleanworld.com/wp-content/t
+0bc0: hemes/hueman/assets/front/js/ie/respond.js"></script> <![endif]-
+0c00: -> <script defer src="https://www.booleanworld.com/wp-content/ca
+0c40: che/autoptimize/js/autoptimize_45994b05e7cc307ddfdc2398f26e06e9.
+0c80: js"></script>.<script type="text/javascript">...(function(f,a){f
+0cc0: unction g(b,a,c){b.addEventListener?b.addEventListener(a,c):b.at
+0d00: tachEvent("on"+a,function(){c.call(b)})}function k(b){b&&("strin
+0d40: g"==typeof b["class"]&&b["class"]&&a.getElementById("uglipop_pop
+0d80: box").setAttribute("class",b["class"]),b.keepLayout&&!b["class"]
+0dc0: &&a.getElementById("uglipop_popbox").setAttribute("style","posit
+0e00: ion:relative;height:300px;width:300px;background-color:white;opa
+0e40: city:1;"),"string"==typeof b.content&&b.content&&"html"==b.sourc
+0e80: e&&(a.getElementById("uglipop_popbox").innerHTML=b.content),"str
+0ec0: ing"==typeof b.content&&b.content&&"div"==b.source&&(a.getElemen
+0f00: tById("uglipop_popbox").innerHTML=a.getElementById(b.content).in
+0f40: nerHTML));a.getElementById("uglipop_overlay_wrapper").style.disp
+0f80: lay="";a.getElementById("uglipop_overlay").style.display="";a.ge
+0fc0: tElementById("uglipop_content_fixed").style.display=""}function 
+1000: h(){a.getElementById("uglipop_overlay_wrapper").style.display="n
+1040: one";a.getElementById("uglipop_overlay").style.display="none
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 4229 bytes (0x1085)
+0000: ";a.getElementById("uglipop_content_fixed").style.display="none"
+0040: }g(a,"DOMContentLoaded",function(){var b=a.createElement("div"),
+0080: e=a.createElement("div"),c=a.createElement("div"),d=a.createElem
+00c0: ent("div");e.id="uglipop_content_fixed";e.setAttribute("style","
+0100: position:fixed;top: 50%;left: 50%;transform: translate(-50%, -50
+0140: %);-webkit-transform: translate(-50%, -50%);-ms-transform: trans
+0180: late(-50%, -50%);opacity:1;z-index:10000000;");c.id="uglipop_pop
+01c0: box";d.id="uglipop_overlay_wrapper";d.setAttribute("style","posi
+0200: tion:absolute;top:0;bottom:0;left:0;right:0;display:none");b.id=
+0240: "uglipop_overlay";b.setAttribute("style","position:fixed;top:0;b
+0280: ottom:0;left:0;right:0;opacity:0.3;width:100%;height:100%;backgr
+02c0: ound-color:black;");d.appendChild(b);e.appendChild(c);a.body.app
+0300: endChild(d);a.body.appendChild(e);a.getElementById("uglipop_over
+0340: lay_wrapper").style.display="none";a.getElementById("uglipop_ove
+0380: rlay").style.display="none";a.getElementById("uglipop_content_fi
+03c0: xed").style.display="none";d.addEventListener("click",h);g(f,"ke
+0400: ydown",function(a){27==a.keyCode&&h()});f.uglipop=k})})(window,d
+0440: ocument);....var ezRBA = (function() {....  function init() {...
+0480: ..var reportAdsBtns = document.querySelectorAll('.ez-report-ad-b
+04c0: utton');.....for (var i = 0; i < reportAdsBtns.length; i++) {...
+0500: ..  reportAdsBtns[i].addEventListener('click', function(e) {....
+0540: ..var url = '<iframe src="https://ezoic.com/pub/reportads/report
+0580: ads.html' + e.target.getAttribute('name') + '" width="400" heigh
+05c0: t="500" style="border-radius: 10px; box-shadow: 2px 2px 30px 6px
+0600:  rgba(0,0,0,0.75); border: 1px solid black;"></iframe>'......ugl
+0640: ipop({......  class: 'none',......  source: 'html',......  conte
+0680: nt: url,......});.....  });.....}.....function bindEvent(element
+06c0: , eventName, eventHandler) {......if (element.addEventListener) 
+0700: {.......element.addEventListener(eventName, eventHandler, false)
+0740: ;......} else if (element.attachEvent) {.......element.attachEve
+0780: nt('on' + eventName, eventHandler);......}.....}.....bindEvent(w
+07c0: indow, 'message', function(e) {......if (e.data === 'close-repor
+0800: t-ad-modal') {.......document.getElementById('uglipop_overlay_wr
+0840: apper').style.display = 'none';........document.getElementById('
+0880: uglipop_overlay').style.display = 'none';........document.getEle
+08c0: mentById('uglipop_content_fixed').style.display = 'none';.......
+0900: }.....})....  }.....  return {.....init: init....  };....})();..
+0940: ..ezRBA.init();...</script>.<script type='text/javascript' data-
+0980: cfasync='false'>(function(){function b(g,c){for(var e=0;e<c.leng
+09c0: th;e++){var d=c[e];if(0==d.complete||"undefined"!=typeof d.ready
+0a00: State&&4>d.readyState){var f=d.getAttribute("src")||d.currentSrc
+0a40: ;"undefined"!=typeof d.readyState&&0==d.readyState?d.addEventLis
+0a80: tener("loadstart",function(h){var k=h.getAttribute("src")||h.cur
+0ac0: rentSrc;window.ezorqs(h,k)}):(f=d.getAttribute("src")||d.current
+0b00: Src,window.ezorqs(d,f));d.addEventListener("load",function(h){va
+0b40: r k=h.currentTarget.getAttribute("src")||h.srcElement.currentSrc
+0b80: ;window.ezorqe(h,.k)});d.addEventListener("loadeddata",function(
+0bc0: h){var k=h.currentTarget.getAttribute("src")||h.srcElement.curre
+0c00: ntSrc;window.ezorqe(h,k)});d.addEventListener("error",function(h
+0c40: ){var k=h.currentTarget.getAttribute("src")||h.srcElement.curren
+0c80: tSrc;window.ezorqe(h,k)})}}}function a(g){for(var c=0;c<document
+0cc0: .styleSheets.length;c++)if(document.styleSheets[c].href==g)retur
+0d00: n!0;return!1}b("img",document.querySelectorAll("img"));b("video"
+0d40: ,document.querySelectorAll("video"));b("audio",document.querySel
+0d80: ectorAll("audio"));.(function(g){for(var c=0;c<g.length;c++){var
+0dc0:  e=g[c];if(("preload"==e.getAttribute("rel")||"stylesheet"==e.ge
+0e00: tAttribute("rel"))&&null!=e.getAttribute("href")&&a(e.getAttribu
+0e40: te("href"))){window.ezorqs(e,e.getAttribute("href"));var d=docum
+0e80: ent.createElement("img");d.onerror=function(f){"undefined"!=type
+0ec0: of f.path&&"undefined"!=typeof f.path[0].currentSrc?window.ezorq
+0f00: e(e,f.path[0].currentSrc):"undefined"!=typeof f.srcElement&&"und
+0f40: efined"!=typeof f.srcElement.href&&window.ezorqe(e,f.srcElement.
+0f80: href)};d.src=.e.getAttribute("href")}}})(document.querySelectorA
+0fc0: ll("link"));"undefined"!=typeof window.__ez.ssaf&&-1<window.__ez
+1000: .ssaf.indexOf(16)&&"undefined"!==typeof window.__ez.sshsdef&&!1=
+1040: ==window.__ez.sshsdef&&Element.prototype.addEventListener&&("fun
+1080: ction
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 3025 bytes (0xbd1)
+0000: "==typeof window.onload&&(window.addEventListener("load",window.
+0040: onload),window.onload=null),"function"==typeof document.onload&&
+0080: (document.addEventListener.addEventListener("load",document.onlo
+00c0: ad),document.onload=null))})();</script>.<script type="text/java
+0100: script" style='display:none;'>.var __ez_dims = (function() {..va
+0140: r setCookie = function( name, content, expiry ) {...return docum
+0180: ent.cookie = name+'='+content+((expiry)?';expires='+(new Date(Ma
+01c0: th.floor(new Date().getTime()+expiry*1000)).toUTCString()):'')+'
+0200: ;path=/';..};..var ffid = 1;..var oh = window.screen.height;..va
+0240: r ow = window.screen.width;..var h = ffid === 1 ? oh : (oh > ow)
+0280:  ? oh : ow;..var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;..var
+02c0:  uh = window.innerHeight || document.documentElement.clientHeigh
+0300: t || document.getElementsByTagName('body')[0].clientHeight;..var
+0340:  uw = window.innerWidth || document.documentElement.clientWidth 
+0380: || document.getElementsByTagName('body')[0].clientWidth;..setCoo
+03c0: kie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (3
+0400: 1536e3*7));..setCookie('ezohw', encodeURIComponent('w='+uw+',h='
+0440: +uh), (31536e3*7));.})();.</script><script type='text/javascript
+0480: ' style='display:none;' async>.__ez.queue.addFile('edmonton.php'
+04c0: , '/detroitchicago/edmonton.webp?a=a&cb=188-0&shcb=32', true, []
+0500: , true, false, false, false);.__ez.queue.addFile('jellyfish.php'
+0540: , '/porpoiseant/jellyfish.webp?a=a&cb=188-0&shcb=32', false, [],
+0580:  true, false, false, false);.</script>.<script>var _audins_dom="
+05c0: booleanworld_com",_audins_did=95829;__ez.queue.addDelayFunc("aud
+0600: ins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins
+0640: .js?cb=188-0");</script><noscript><div style="display:none;"><im
+0680: g src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=D
+06c0: omain.booleanworld_com,DomainId.95829" border="0" height="1" wid
+0700: th="1" alt="Quantcast"/></div></noscript><noscript><img src="htt
+0740: ps://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/><
+0780: /noscript>.<script>!function(n){"use strict";n.loadCSS||(n.loadC
+07c0: SS=function(){});var o=loadCSS.relpreload={};if(o.support=functi
+0800: on(){var e;try{e=n.document.createElement("link").relList.suppor
+0840: ts("preload")}catch(t){e=!1}return function(){return e}}(),o.bin
+0880: dMediaToggle=function(t){var e=t.media||"all";function a(){t.med
+08c0: ia=e}t.addEventListener?t.addEventListener("load",a):t.attachEve
+0900: nt&&t.attachEvent("onload",a),setTimeout(function(){t.rel="style
+0940: sheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){i
+0980: f(!o.support())for(var t=n.document.getElementsByTagName("link")
+09c0: ,e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.g
+0a00: etAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribu
+0a40: te("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.po
+0a80: ly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEve
+0ac0: ntListener("load",function(){o.poly(),n.clearInterval(t)}):n.att
+0b00: achEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInte
+0b40: rval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.
+0b80: loadCSS=loadCSS}("undefined"!=typeof global?global:this);</scrip
+0bc0: t></body></html>.
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: Connection #0 to host www.booleanworld.com left intact
